@@ -1,0 +1,4936 @@
+{
+  "status": 200,
+  "statusText": "Ok",
+  "redirected": false,
+  "headers": {
+    "Content-Type": "application/json"
+  },
+  "data": {
+    "data": [
+      {
+        "id": 10810,
+        "course_taker_id": "301503",
+        "name": "Arturo Stroman",
+        "age": 30,
+        "address": {
+          "state": "North Carolina",
+          "city": "Justiceboro",
+          "zip_code": "34157",
+          "number": "484"
+        },
+        "phone_number": "361-706-0657 x841",
+        "birth_date": "3/03/2001",
+        "rg": "03#624l705-72",
+        "courses": [
+          {
+            "id": 55,
+            "name": "Music",
+            "catalogue": 70,
+            "specialties": [
+              {
+                "id": 2,
+                "name": "Violino"
+              }
+            ],
+            "created_at": "1995-02-11T20:51:00.220Z",
+            "updated_at": "1995-02-11T20:51:00.220Z",
+            "deleted_at": null
+          }
+        ],
+        "allocs": [
+          {
+            "id": 10136487,
+            "system": "app",
+            "date": "2023-03-04T09:00:00.000Z",
+            "type": 0,
+            "place": {
+              "id": 1,
+              "num": 13,
+              "name": "Sala 13",
+              "cap": 5,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-04T23:45:21.503Z",
+            "updated_at": "2023-03-04T23:45:21.503Z",
+            "deleted_at": null
+          },
+          {
+            "id": 6442771,
+            "system": "app",
+            "date": "2023-03-05T14:00:00.000Z",
+            "type": 1,
+            "place": {
+              "id": 4,
+              "num": 41,
+              "name": "Sala 41",
+              "cap": 30,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-11T19:45:21.503Z",
+            "updated_at": "2023-03-11T19:45:21.503Z",
+            "deleted_at": null
+          },
+          {
+            "id": 15540991,
+            "system": "app",
+            "date": "2023-03-05T08:00:00.000Z",
+            "type": 0,
+            "place": {
+              "id": 1,
+              "num": 13,
+              "name": "Sala 13",
+              "cap": 5,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-14T00:45:21.503Z",
+            "updated_at": "2023-03-14T00:45:21.503Z",
+            "deleted_at": null
+          },
+          {
+            "id": 48122028,
+            "system": "website",
+            "date": "2023-03-07T23:00:00.000Z",
+            "type": 1,
+            "place": {
+              "id": 5,
+              "num": 33,
+              "name": "Sala 33",
+              "cap": 10,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-18T14:45:21.503Z",
+            "updated_at": "2023-03-18T14:45:21.503Z",
+            "deleted_at": null
+          },
+          {
+            "id": 18751977,
+            "system": "website",
+            "date": "2023-03-10T00:00:00.000Z",
+            "type": 0,
+            "place": {
+              "id": 4,
+              "num": 41,
+              "name": "Sala 41",
+              "cap": 30,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-04T09:45:21.503Z",
+            "updated_at": "2023-03-04T09:45:21.503Z",
+            "deleted_at": null
+          },
+          {
+            "id": 87217499,
+            "system": "app",
+            "date": "2023-03-07T01:00:00.000Z",
+            "type": 1,
+            "place": {
+              "id": 2,
+              "num": 25,
+              "name": "Paes Nunes",
+              "cap": 60,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-09T03:45:21.503Z",
+            "updated_at": "2023-03-09T03:45:21.503Z",
+            "deleted_at": null
+          },
+          {
+            "id": 57224755,
+            "system": "website",
+            "date": "2023-03-07T17:00:00.000Z",
+            "type": 0,
+            "place": {
+              "id": 6,
+              "num": 14,
+              "name": "Sala 14",
+              "cap": 12,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-10T00:45:21.503Z",
+            "updated_at": "2023-03-10T00:45:21.503Z",
+            "deleted_at": null
+          },
+          {
+            "id": 15830494,
+            "system": "website",
+            "date": "2023-03-09T04:00:00.000Z",
+            "type": 0,
+            "place": {
+              "id": 5,
+              "num": 33,
+              "name": "Sala 33",
+              "cap": 10,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-17T00:45:21.503Z",
+            "updated_at": "2023-03-17T00:45:21.503Z",
+            "deleted_at": null
+          },
+          {
+            "id": 22446609,
+            "system": "website",
+            "date": "2023-03-03T11:00:00.000Z",
+            "type": 0,
+            "place": {
+              "id": 3,
+              "num": 30,
+              "name": "Estúdio",
+              "cap": 5,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-07T03:45:21.503Z",
+            "updated_at": "2023-03-07T03:45:21.503Z",
+            "deleted_at": null
+          },
+          {
+            "id": 23602260,
+            "system": "app",
+            "date": "2023-03-04T14:00:00.000Z",
+            "type": 0,
+            "place": {
+              "id": 3,
+              "num": 30,
+              "name": "Estúdio",
+              "cap": 5,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-04T01:45:21.503Z",
+            "updated_at": "2023-03-04T01:45:21.503Z",
+            "deleted_at": null
+          },
+          {
+            "id": 25031818,
+            "system": "app",
+            "date": "2023-03-05T09:00:00.000Z",
+            "type": 1,
+            "place": {
+              "id": 1,
+              "num": 13,
+              "name": "Sala 13",
+              "cap": 5,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-03T22:45:21.503Z",
+            "updated_at": "2023-03-03T22:45:21.503Z",
+            "deleted_at": null
+          },
+          {
+            "id": 34000190,
+            "system": "website",
+            "date": "2023-03-05T01:00:00.000Z",
+            "type": 1,
+            "place": {
+              "id": 3,
+              "num": 30,
+              "name": "Estúdio",
+              "cap": 5,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-14T04:45:21.503Z",
+            "updated_at": "2023-03-14T04:45:21.503Z",
+            "deleted_at": null
+          },
+          {
+            "id": 13116522,
+            "system": "website",
+            "date": "2023-03-06T09:00:00.000Z",
+            "type": 1,
+            "place": {
+              "id": 1,
+              "num": 13,
+              "name": "Sala 13",
+              "cap": 5,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-16T08:45:21.503Z",
+            "updated_at": "2023-03-16T08:45:21.503Z",
+            "deleted_at": null
+          },
+          {
+            "id": 82668494,
+            "system": "website",
+            "date": "2023-03-08T19:00:00.000Z",
+            "type": 0,
+            "place": {
+              "id": 1,
+              "num": 13,
+              "name": "Sala 13",
+              "cap": 5,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-15T00:45:21.503Z",
+            "updated_at": "2023-03-15T00:45:21.503Z",
+            "deleted_at": null
+          },
+          {
+            "id": 47086471,
+            "system": "app",
+            "date": "2023-03-08T16:00:00.000Z",
+            "type": 0,
+            "place": {
+              "id": 5,
+              "num": 33,
+              "name": "Sala 33",
+              "cap": 10,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-05T19:45:21.503Z",
+            "updated_at": "2023-03-05T19:45:21.503Z",
+            "deleted_at": null
+          }
+        ],
+        "enrollment_year": 2014,
+        "created_at": "2014-03-03T14:45:21.503Z",
+        "updated_at": "2014-03-03T14:45:21.503Z",
+        "deleted_at": null
+      },
+      {
+        "id": 16764,
+        "course_taker_id": "281202",
+        "name": "Carlton Parisian",
+        "age": 27,
+        "address": {
+          "state": "New Mexico",
+          "city": "East Augustuston",
+          "zip_code": "39220-0799",
+          "number": "57673"
+        },
+        "phone_number": "351.990.0962 x7083",
+        "birth_date": "3/03/1995",
+        "rg": "16d705u895-87",
+        "courses": [
+          {
+            "id": 55,
+            "name": "Music",
+            "catalogue": 70,
+            "specialties": [
+              {
+                "id": 6,
+                "name": "Violão Popular"
+              }
+            ],
+            "created_at": "1995-02-11T20:51:00.220Z",
+            "updated_at": "1995-02-11T20:51:00.220Z",
+            "deleted_at": null
+          }
+        ],
+        "allocs": [
+          {
+            "id": 69525269,
+            "system": "website",
+            "date": "2023-03-07T08:00:00.000Z",
+            "type": 0,
+            "place": {
+              "id": 1,
+              "num": 13,
+              "name": "Sala 13",
+              "cap": 5,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-09T22:45:21.504Z",
+            "updated_at": "2023-03-09T22:45:21.504Z",
+            "deleted_at": null
+          },
+          {
+            "id": 77268847,
+            "system": "app",
+            "date": "2023-03-06T00:00:00.000Z",
+            "type": 0,
+            "place": {
+              "id": 3,
+              "num": 30,
+              "name": "Estúdio",
+              "cap": 5,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-06T18:45:21.504Z",
+            "updated_at": "2023-03-06T18:45:21.504Z",
+            "deleted_at": null
+          },
+          {
+            "id": 38928962,
+            "system": "app",
+            "date": "2023-03-07T20:00:00.000Z",
+            "type": 0,
+            "place": {
+              "id": 3,
+              "num": 30,
+              "name": "Estúdio",
+              "cap": 5,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-06T20:45:21.504Z",
+            "updated_at": "2023-03-06T20:45:21.504Z",
+            "deleted_at": null
+          },
+          {
+            "id": 97093281,
+            "system": "app",
+            "date": "2023-03-04T06:00:00.000Z",
+            "type": 0,
+            "place": {
+              "id": 5,
+              "num": 33,
+              "name": "Sala 33",
+              "cap": 10,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-09T16:45:21.504Z",
+            "updated_at": "2023-03-09T16:45:21.504Z",
+            "deleted_at": null
+          },
+          {
+            "id": 46827434,
+            "system": "website",
+            "date": "2023-03-06T13:00:00.000Z",
+            "type": 1,
+            "place": {
+              "id": 4,
+              "num": 41,
+              "name": "Sala 41",
+              "cap": 30,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-16T11:45:21.504Z",
+            "updated_at": "2023-03-16T11:45:21.504Z",
+            "deleted_at": null
+          },
+          {
+            "id": 70933558,
+            "system": "website",
+            "date": "2023-03-09T15:00:00.000Z",
+            "type": 1,
+            "place": {
+              "id": 4,
+              "num": 41,
+              "name": "Sala 41",
+              "cap": 30,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-08T13:45:21.504Z",
+            "updated_at": "2023-03-08T13:45:21.504Z",
+            "deleted_at": null
+          },
+          {
+            "id": 64387287,
+            "system": "app",
+            "date": "2023-03-04T16:00:00.000Z",
+            "type": 1,
+            "place": {
+              "id": 6,
+              "num": 14,
+              "name": "Sala 14",
+              "cap": 12,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-12T17:45:21.504Z",
+            "updated_at": "2023-03-12T17:45:21.504Z",
+            "deleted_at": null
+          },
+          {
+            "id": 56494008,
+            "system": "website",
+            "date": "2023-03-04T00:00:00.000Z",
+            "type": 0,
+            "place": {
+              "id": 3,
+              "num": 30,
+              "name": "Estúdio",
+              "cap": 5,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-10T00:45:21.504Z",
+            "updated_at": "2023-03-10T00:45:21.504Z",
+            "deleted_at": null
+          },
+          {
+            "id": 64915387,
+            "system": "website",
+            "date": "2023-03-06T19:00:00.000Z",
+            "type": 0,
+            "place": {
+              "id": 2,
+              "num": 25,
+              "name": "Paes Nunes",
+              "cap": 60,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-09T12:45:21.504Z",
+            "updated_at": "2023-03-09T12:45:21.504Z",
+            "deleted_at": null
+          },
+          {
+            "id": 86095806,
+            "system": "app",
+            "date": "2023-03-09T00:00:00.000Z",
+            "type": 0,
+            "place": {
+              "id": 3,
+              "num": 30,
+              "name": "Estúdio",
+              "cap": 5,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-13T17:45:21.504Z",
+            "updated_at": "2023-03-13T17:45:21.504Z",
+            "deleted_at": null
+          },
+          {
+            "id": 55170497,
+            "system": "website",
+            "date": "2023-03-09T17:00:00.000Z",
+            "type": 1,
+            "place": {
+              "id": 6,
+              "num": 14,
+              "name": "Sala 14",
+              "cap": 12,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-15T21:45:21.504Z",
+            "updated_at": "2023-03-15T21:45:21.504Z",
+            "deleted_at": null
+          },
+          {
+            "id": 60620290,
+            "system": "app",
+            "date": "2023-03-03T21:00:00.000Z",
+            "type": 1,
+            "place": {
+              "id": 4,
+              "num": 41,
+              "name": "Sala 41",
+              "cap": 30,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-18T07:45:21.504Z",
+            "updated_at": "2023-03-18T07:45:21.504Z",
+            "deleted_at": null
+          },
+          {
+            "id": 46651429,
+            "system": "app",
+            "date": "2023-03-04T18:00:00.000Z",
+            "type": 1,
+            "place": {
+              "id": 5,
+              "num": 33,
+              "name": "Sala 33",
+              "cap": 10,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-06T14:45:21.504Z",
+            "updated_at": "2023-03-06T14:45:21.504Z",
+            "deleted_at": null
+          },
+          {
+            "id": 91203942,
+            "system": "app",
+            "date": "2023-03-06T04:00:00.000Z",
+            "type": 1,
+            "place": {
+              "id": 4,
+              "num": 41,
+              "name": "Sala 41",
+              "cap": 30,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-12T21:45:21.504Z",
+            "updated_at": "2023-03-12T21:45:21.504Z",
+            "deleted_at": null
+          },
+          {
+            "id": 71273383,
+            "system": "app",
+            "date": "2023-03-07T12:00:00.000Z",
+            "type": 0,
+            "place": {
+              "id": 1,
+              "num": 13,
+              "name": "Sala 13",
+              "cap": 5,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-13T07:45:21.504Z",
+            "updated_at": "2023-03-13T07:45:21.504Z",
+            "deleted_at": null
+          },
+          {
+            "id": 19349726,
+            "system": "app",
+            "date": "2023-03-09T06:00:00.000Z",
+            "type": 0,
+            "place": {
+              "id": 1,
+              "num": 13,
+              "name": "Sala 13",
+              "cap": 5,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-10T08:45:21.504Z",
+            "updated_at": "2023-03-10T08:45:21.504Z",
+            "deleted_at": null
+          }
+        ],
+        "enrollment_year": 2020,
+        "created_at": "2020-03-03T14:45:21.504Z",
+        "updated_at": "2020-03-03T14:45:21.504Z",
+        "deleted_at": null
+      },
+      {
+        "id": 51353,
+        "course_taker_id": "273065",
+        "name": "Judith Roob",
+        "age": 21,
+        "address": {
+          "state": "South Carolina",
+          "city": "New Jamarville",
+          "zip_code": "71369-0921",
+          "number": "3866"
+        },
+        "phone_number": "(623) 803-4204",
+        "birth_date": "3/03/1993",
+        "rg": "61X846H292-69",
+        "courses": [
+          {
+            "id": 55,
+            "name": "Music",
+            "catalogue": 70,
+            "specialties": [
+              {
+                "id": 8,
+                "name": "Violoncelo"
+              }
+            ],
+            "created_at": "1995-02-11T20:51:00.220Z",
+            "updated_at": "1995-02-11T20:51:00.220Z",
+            "deleted_at": null
+          }
+        ],
+        "allocs": [
+          {
+            "id": 21360445,
+            "system": "app",
+            "date": "2023-03-04T16:00:00.000Z",
+            "type": 0,
+            "place": {
+              "id": 1,
+              "num": 13,
+              "name": "Sala 13",
+              "cap": 5,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-17T22:45:21.504Z",
+            "updated_at": "2023-03-17T22:45:21.504Z",
+            "deleted_at": null
+          },
+          {
+            "id": 87144795,
+            "system": "app",
+            "date": "2023-03-03T12:00:00.000Z",
+            "type": 1,
+            "place": {
+              "id": 1,
+              "num": 13,
+              "name": "Sala 13",
+              "cap": 5,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-16T22:45:21.504Z",
+            "updated_at": "2023-03-16T22:45:21.504Z",
+            "deleted_at": null
+          },
+          {
+            "id": 52579071,
+            "system": "app",
+            "date": "2023-03-03T03:00:00.000Z",
+            "type": 1,
+            "place": {
+              "id": 2,
+              "num": 25,
+              "name": "Paes Nunes",
+              "cap": 60,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-13T06:45:21.504Z",
+            "updated_at": "2023-03-13T06:45:21.504Z",
+            "deleted_at": null
+          },
+          {
+            "id": 60602726,
+            "system": "website",
+            "date": "2023-03-05T15:00:00.000Z",
+            "type": 1,
+            "place": {
+              "id": 4,
+              "num": 41,
+              "name": "Sala 41",
+              "cap": 30,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-15T11:45:21.504Z",
+            "updated_at": "2023-03-15T11:45:21.504Z",
+            "deleted_at": null
+          },
+          {
+            "id": 85402218,
+            "system": "website",
+            "date": "2023-03-06T09:00:00.000Z",
+            "type": 0,
+            "place": {
+              "id": 2,
+              "num": 25,
+              "name": "Paes Nunes",
+              "cap": 60,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-17T01:45:21.504Z",
+            "updated_at": "2023-03-17T01:45:21.504Z",
+            "deleted_at": null
+          },
+          {
+            "id": 64054783,
+            "system": "app",
+            "date": "2023-03-09T10:00:00.000Z",
+            "type": 1,
+            "place": {
+              "id": 5,
+              "num": 33,
+              "name": "Sala 33",
+              "cap": 10,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-16T15:45:21.504Z",
+            "updated_at": "2023-03-16T15:45:21.504Z",
+            "deleted_at": null
+          },
+          {
+            "id": 29741089,
+            "system": "app",
+            "date": "2023-03-09T06:00:00.000Z",
+            "type": 1,
+            "place": {
+              "id": 4,
+              "num": 41,
+              "name": "Sala 41",
+              "cap": 30,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-15T13:45:21.504Z",
+            "updated_at": "2023-03-15T13:45:21.504Z",
+            "deleted_at": null
+          },
+          {
+            "id": 24952069,
+            "system": "website",
+            "date": "2023-03-03T15:00:00.000Z",
+            "type": 1,
+            "place": {
+              "id": 5,
+              "num": 33,
+              "name": "Sala 33",
+              "cap": 10,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-05T08:45:21.504Z",
+            "updated_at": "2023-03-05T08:45:21.504Z",
+            "deleted_at": null
+          },
+          {
+            "id": 42105953,
+            "system": "app",
+            "date": "2023-03-08T21:00:00.000Z",
+            "type": 1,
+            "place": {
+              "id": 2,
+              "num": 25,
+              "name": "Paes Nunes",
+              "cap": 60,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-17T08:45:21.504Z",
+            "updated_at": "2023-03-17T08:45:21.504Z",
+            "deleted_at": null
+          },
+          {
+            "id": 97848176,
+            "system": "app",
+            "date": "2023-03-10T01:00:00.000Z",
+            "type": 0,
+            "place": {
+              "id": 3,
+              "num": 30,
+              "name": "Estúdio",
+              "cap": 5,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-16T09:45:21.504Z",
+            "updated_at": "2023-03-16T09:45:21.504Z",
+            "deleted_at": null
+          },
+          {
+            "id": 57738971,
+            "system": "app",
+            "date": "2023-03-03T22:00:00.000Z",
+            "type": 1,
+            "place": {
+              "id": 6,
+              "num": 14,
+              "name": "Sala 14",
+              "cap": 12,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-09T08:45:21.504Z",
+            "updated_at": "2023-03-09T08:45:21.504Z",
+            "deleted_at": null
+          },
+          {
+            "id": 31175121,
+            "system": "website",
+            "date": "2023-03-09T00:00:00.000Z",
+            "type": 1,
+            "place": {
+              "id": 1,
+              "num": 13,
+              "name": "Sala 13",
+              "cap": 5,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-07T01:45:21.504Z",
+            "updated_at": "2023-03-07T01:45:21.504Z",
+            "deleted_at": null
+          },
+          {
+            "id": 32008531,
+            "system": "website",
+            "date": "2023-03-03T09:00:00.000Z",
+            "type": 0,
+            "place": {
+              "id": 3,
+              "num": 30,
+              "name": "Estúdio",
+              "cap": 5,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-10T23:45:21.504Z",
+            "updated_at": "2023-03-10T23:45:21.504Z",
+            "deleted_at": null
+          },
+          {
+            "id": 90571555,
+            "system": "app",
+            "date": "2023-03-05T05:00:00.000Z",
+            "type": 1,
+            "place": {
+              "id": 3,
+              "num": 30,
+              "name": "Estúdio",
+              "cap": 5,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-04T04:45:21.504Z",
+            "updated_at": "2023-03-04T04:45:21.504Z",
+            "deleted_at": null
+          }
+        ],
+        "enrollment_year": 2019,
+        "created_at": "2019-03-03T14:45:21.505Z",
+        "updated_at": "2019-03-03T14:45:21.505Z",
+        "deleted_at": null
+      },
+      {
+        "id": 34648,
+        "course_taker_id": "230643",
+        "name": "Lynda Stanton",
+        "age": 30,
+        "address": {
+          "state": "Washington",
+          "city": "Kunzeworth",
+          "zip_code": "33815-2594",
+          "number": "2576"
+        },
+        "phone_number": "701-247-3030",
+        "birth_date": "3/03/2003",
+        "rg": "2006553403-42",
+        "courses": [
+          {
+            "id": 55,
+            "name": "Music",
+            "catalogue": 70,
+            "specialties": [
+              {
+                "id": 7,
+                "name": "Violão Erudito"
+              }
+            ],
+            "created_at": "1995-02-11T20:51:00.220Z",
+            "updated_at": "1995-02-11T20:51:00.220Z",
+            "deleted_at": null
+          }
+        ],
+        "allocs": [
+          {
+            "id": 12313508,
+            "system": "app",
+            "date": "2023-03-04T00:00:00.000Z",
+            "type": 1,
+            "place": {
+              "id": 2,
+              "num": 25,
+              "name": "Paes Nunes",
+              "cap": 60,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-16T16:45:21.505Z",
+            "updated_at": "2023-03-16T16:45:21.505Z",
+            "deleted_at": null
+          },
+          {
+            "id": 82600570,
+            "system": "app",
+            "date": "2023-03-05T14:00:00.000Z",
+            "type": 1,
+            "place": {
+              "id": 5,
+              "num": 33,
+              "name": "Sala 33",
+              "cap": 10,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-10T18:45:21.505Z",
+            "updated_at": "2023-03-10T18:45:21.505Z",
+            "deleted_at": null
+          },
+          {
+            "id": 68806003,
+            "system": "website",
+            "date": "2023-03-03T08:00:00.000Z",
+            "type": 0,
+            "place": {
+              "id": 3,
+              "num": 30,
+              "name": "Estúdio",
+              "cap": 5,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-10T21:45:21.505Z",
+            "updated_at": "2023-03-10T21:45:21.505Z",
+            "deleted_at": null
+          },
+          {
+            "id": 28696090,
+            "system": "website",
+            "date": "2023-03-08T23:00:00.000Z",
+            "type": 0,
+            "place": {
+              "id": 5,
+              "num": 33,
+              "name": "Sala 33",
+              "cap": 10,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-17T05:45:21.505Z",
+            "updated_at": "2023-03-17T05:45:21.505Z",
+            "deleted_at": null
+          },
+          {
+            "id": 49513130,
+            "system": "website",
+            "date": "2023-03-04T22:00:00.000Z",
+            "type": 0,
+            "place": {
+              "id": 2,
+              "num": 25,
+              "name": "Paes Nunes",
+              "cap": 60,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-09T09:45:21.505Z",
+            "updated_at": "2023-03-09T09:45:21.505Z",
+            "deleted_at": null
+          },
+          {
+            "id": 54135284,
+            "system": "website",
+            "date": "2023-03-03T21:00:00.000Z",
+            "type": 1,
+            "place": {
+              "id": 2,
+              "num": 25,
+              "name": "Paes Nunes",
+              "cap": 60,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-05T20:45:21.505Z",
+            "updated_at": "2023-03-05T20:45:21.505Z",
+            "deleted_at": null
+          },
+          {
+            "id": 25304790,
+            "system": "app",
+            "date": "2023-03-08T00:00:00.000Z",
+            "type": 1,
+            "place": {
+              "id": 6,
+              "num": 14,
+              "name": "Sala 14",
+              "cap": 12,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-08T11:45:21.505Z",
+            "updated_at": "2023-03-08T11:45:21.505Z",
+            "deleted_at": null
+          },
+          {
+            "id": 51366242,
+            "system": "website",
+            "date": "2023-03-05T19:00:00.000Z",
+            "type": 0,
+            "place": {
+              "id": 4,
+              "num": 41,
+              "name": "Sala 41",
+              "cap": 30,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-10T20:45:21.505Z",
+            "updated_at": "2023-03-10T20:45:21.505Z",
+            "deleted_at": null
+          },
+          {
+            "id": 59456009,
+            "system": "website",
+            "date": "2023-03-03T15:00:00.000Z",
+            "type": 1,
+            "place": {
+              "id": 3,
+              "num": 30,
+              "name": "Estúdio",
+              "cap": 5,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-17T18:45:21.505Z",
+            "updated_at": "2023-03-17T18:45:21.505Z",
+            "deleted_at": null
+          },
+          {
+            "id": 41600283,
+            "system": "app",
+            "date": "2023-03-05T22:00:00.000Z",
+            "type": 0,
+            "place": {
+              "id": 2,
+              "num": 25,
+              "name": "Paes Nunes",
+              "cap": 60,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-12T11:45:21.505Z",
+            "updated_at": "2023-03-12T11:45:21.505Z",
+            "deleted_at": null
+          },
+          {
+            "id": 35476882,
+            "system": "app",
+            "date": "2023-03-03T13:00:00.000Z",
+            "type": 0,
+            "place": {
+              "id": 6,
+              "num": 14,
+              "name": "Sala 14",
+              "cap": 12,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-16T11:45:21.505Z",
+            "updated_at": "2023-03-16T11:45:21.505Z",
+            "deleted_at": null
+          },
+          {
+            "id": 51682493,
+            "system": "app",
+            "date": "2023-03-08T15:00:00.000Z",
+            "type": 1,
+            "place": {
+              "id": 5,
+              "num": 33,
+              "name": "Sala 33",
+              "cap": 10,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-16T18:45:21.505Z",
+            "updated_at": "2023-03-16T18:45:21.505Z",
+            "deleted_at": null
+          },
+          {
+            "id": 17299855,
+            "system": "app",
+            "date": "2023-03-04T08:00:00.000Z",
+            "type": 1,
+            "place": {
+              "id": 5,
+              "num": 33,
+              "name": "Sala 33",
+              "cap": 10,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-18T09:45:21.505Z",
+            "updated_at": "2023-03-18T09:45:21.505Z",
+            "deleted_at": null
+          },
+          {
+            "id": 11630517,
+            "system": "website",
+            "date": "2023-03-03T14:00:00.000Z",
+            "type": 1,
+            "place": {
+              "id": 1,
+              "num": 13,
+              "name": "Sala 13",
+              "cap": 5,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-09T10:45:21.505Z",
+            "updated_at": "2023-03-09T10:45:21.505Z",
+            "deleted_at": null
+          },
+          {
+            "id": 31296411,
+            "system": "app",
+            "date": "2023-03-09T05:00:00.000Z",
+            "type": 0,
+            "place": {
+              "id": 6,
+              "num": 14,
+              "name": "Sala 14",
+              "cap": 12,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-13T07:45:21.505Z",
+            "updated_at": "2023-03-13T07:45:21.505Z",
+            "deleted_at": null
+          },
+          {
+            "id": 98221087,
+            "system": "website",
+            "date": "2023-03-09T23:00:00.000Z",
+            "type": 1,
+            "place": {
+              "id": 3,
+              "num": 30,
+              "name": "Estúdio",
+              "cap": 5,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-17T16:45:21.505Z",
+            "updated_at": "2023-03-17T16:45:21.505Z",
+            "deleted_at": null
+          },
+          {
+            "id": 30170671,
+            "system": "app",
+            "date": "2023-03-09T10:00:00.000Z",
+            "type": 0,
+            "place": {
+              "id": 3,
+              "num": 30,
+              "name": "Estúdio",
+              "cap": 5,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-17T01:45:21.505Z",
+            "updated_at": "2023-03-17T01:45:21.505Z",
+            "deleted_at": null
+          },
+          {
+            "id": 53810507,
+            "system": "app",
+            "date": "2023-03-04T17:00:00.000Z",
+            "type": 1,
+            "place": {
+              "id": 1,
+              "num": 13,
+              "name": "Sala 13",
+              "cap": 5,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-15T11:45:21.505Z",
+            "updated_at": "2023-03-15T11:45:21.505Z",
+            "deleted_at": null
+          },
+          {
+            "id": 941877,
+            "system": "app",
+            "date": "2023-03-05T04:00:00.000Z",
+            "type": 0,
+            "place": {
+              "id": 5,
+              "num": 33,
+              "name": "Sala 33",
+              "cap": 10,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-17T14:45:21.505Z",
+            "updated_at": "2023-03-17T14:45:21.505Z",
+            "deleted_at": null
+          },
+          {
+            "id": 78970428,
+            "system": "website",
+            "date": "2023-03-09T09:00:00.000Z",
+            "type": 0,
+            "place": {
+              "id": 6,
+              "num": 14,
+              "name": "Sala 14",
+              "cap": 12,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-14T04:45:21.505Z",
+            "updated_at": "2023-03-14T04:45:21.505Z",
+            "deleted_at": null
+          },
+          {
+            "id": 71168830,
+            "system": "website",
+            "date": "2023-03-08T08:00:00.000Z",
+            "type": 0,
+            "place": {
+              "id": 5,
+              "num": 33,
+              "name": "Sala 33",
+              "cap": 10,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-06T06:45:21.505Z",
+            "updated_at": "2023-03-06T06:45:21.505Z",
+            "deleted_at": null
+          },
+          {
+            "id": 62567797,
+            "system": "website",
+            "date": "2023-03-04T11:00:00.000Z",
+            "type": 1,
+            "place": {
+              "id": 6,
+              "num": 14,
+              "name": "Sala 14",
+              "cap": 12,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-13T12:45:21.505Z",
+            "updated_at": "2023-03-13T12:45:21.505Z",
+            "deleted_at": null
+          },
+          {
+            "id": 68293395,
+            "system": "app",
+            "date": "2023-03-07T17:00:00.000Z",
+            "type": 0,
+            "place": {
+              "id": 1,
+              "num": 13,
+              "name": "Sala 13",
+              "cap": 5,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-06T02:45:21.505Z",
+            "updated_at": "2023-03-06T02:45:21.505Z",
+            "deleted_at": null
+          },
+          {
+            "id": 69361224,
+            "system": "app",
+            "date": "2023-03-06T00:00:00.000Z",
+            "type": 1,
+            "place": {
+              "id": 4,
+              "num": 41,
+              "name": "Sala 41",
+              "cap": 30,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-15T05:45:21.505Z",
+            "updated_at": "2023-03-15T05:45:21.505Z",
+            "deleted_at": null
+          },
+          {
+            "id": 63397026,
+            "system": "website",
+            "date": "2023-03-03T23:00:00.000Z",
+            "type": 1,
+            "place": {
+              "id": 3,
+              "num": 30,
+              "name": "Estúdio",
+              "cap": 5,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-08T02:45:21.505Z",
+            "updated_at": "2023-03-08T02:45:21.505Z",
+            "deleted_at": null
+          },
+          {
+            "id": 76360125,
+            "system": "website",
+            "date": "2023-03-05T03:00:00.000Z",
+            "type": 0,
+            "place": {
+              "id": 2,
+              "num": 25,
+              "name": "Paes Nunes",
+              "cap": 60,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-17T23:45:21.505Z",
+            "updated_at": "2023-03-17T23:45:21.505Z",
+            "deleted_at": null
+          },
+          {
+            "id": 90131343,
+            "system": "app",
+            "date": "2023-03-09T19:00:00.000Z",
+            "type": 0,
+            "place": {
+              "id": 1,
+              "num": 13,
+              "name": "Sala 13",
+              "cap": 5,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-04T12:45:21.505Z",
+            "updated_at": "2023-03-04T12:45:21.505Z",
+            "deleted_at": null
+          },
+          {
+            "id": 85746423,
+            "system": "app",
+            "date": "2023-03-08T07:00:00.000Z",
+            "type": 1,
+            "place": {
+              "id": 6,
+              "num": 14,
+              "name": "Sala 14",
+              "cap": 12,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-05T14:45:21.505Z",
+            "updated_at": "2023-03-05T14:45:21.505Z",
+            "deleted_at": null
+          },
+          {
+            "id": 5415380,
+            "system": "website",
+            "date": "2023-03-05T20:00:00.000Z",
+            "type": 1,
+            "place": {
+              "id": 4,
+              "num": 41,
+              "name": "Sala 41",
+              "cap": 30,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-12T01:45:21.505Z",
+            "updated_at": "2023-03-12T01:45:21.505Z",
+            "deleted_at": null
+          },
+          {
+            "id": 8274585,
+            "system": "website",
+            "date": "2023-03-04T04:00:00.000Z",
+            "type": 1,
+            "place": {
+              "id": 3,
+              "num": 30,
+              "name": "Estúdio",
+              "cap": 5,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-08T05:45:21.505Z",
+            "updated_at": "2023-03-08T05:45:21.505Z",
+            "deleted_at": null
+          },
+          {
+            "id": 39095470,
+            "system": "website",
+            "date": "2023-03-06T05:00:00.000Z",
+            "type": 1,
+            "place": {
+              "id": 2,
+              "num": 25,
+              "name": "Paes Nunes",
+              "cap": 60,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-13T10:45:21.505Z",
+            "updated_at": "2023-03-13T10:45:21.505Z",
+            "deleted_at": null
+          },
+          {
+            "id": 96478168,
+            "system": "website",
+            "date": "2023-03-07T18:00:00.000Z",
+            "type": 0,
+            "place": {
+              "id": 6,
+              "num": 14,
+              "name": "Sala 14",
+              "cap": 12,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-09T09:45:21.505Z",
+            "updated_at": "2023-03-09T09:45:21.505Z",
+            "deleted_at": null
+          },
+          {
+            "id": 16591004,
+            "system": "website",
+            "date": "2023-03-06T08:00:00.000Z",
+            "type": 0,
+            "place": {
+              "id": 3,
+              "num": 30,
+              "name": "Estúdio",
+              "cap": 5,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-09T14:45:21.505Z",
+            "updated_at": "2023-03-09T14:45:21.505Z",
+            "deleted_at": null
+          },
+          {
+            "id": 22448504,
+            "system": "website",
+            "date": "2023-03-06T14:00:00.000Z",
+            "type": 1,
+            "place": {
+              "id": 1,
+              "num": 13,
+              "name": "Sala 13",
+              "cap": 5,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-14T18:45:21.505Z",
+            "updated_at": "2023-03-14T18:45:21.505Z",
+            "deleted_at": null
+          },
+          {
+            "id": 39697496,
+            "system": "app",
+            "date": "2023-03-09T21:00:00.000Z",
+            "type": 1,
+            "place": {
+              "id": 4,
+              "num": 41,
+              "name": "Sala 41",
+              "cap": 30,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-16T02:45:21.505Z",
+            "updated_at": "2023-03-16T02:45:21.505Z",
+            "deleted_at": null
+          },
+          {
+            "id": 76393397,
+            "system": "website",
+            "date": "2023-03-04T20:00:00.000Z",
+            "type": 1,
+            "place": {
+              "id": 6,
+              "num": 14,
+              "name": "Sala 14",
+              "cap": 12,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-10T08:45:21.505Z",
+            "updated_at": "2023-03-10T08:45:21.505Z",
+            "deleted_at": null
+          },
+          {
+            "id": 91681668,
+            "system": "website",
+            "date": "2023-03-07T14:00:00.000Z",
+            "type": 1,
+            "place": {
+              "id": 5,
+              "num": 33,
+              "name": "Sala 33",
+              "cap": 10,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-16T22:45:21.505Z",
+            "updated_at": "2023-03-16T22:45:21.505Z",
+            "deleted_at": null
+          },
+          {
+            "id": 2515133,
+            "system": "website",
+            "date": "2023-03-04T19:00:00.000Z",
+            "type": 0,
+            "place": {
+              "id": 1,
+              "num": 13,
+              "name": "Sala 13",
+              "cap": 5,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-13T17:45:21.505Z",
+            "updated_at": "2023-03-13T17:45:21.505Z",
+            "deleted_at": null
+          },
+          {
+            "id": 51272264,
+            "system": "app",
+            "date": "2023-03-10T03:00:00.000Z",
+            "type": 0,
+            "place": {
+              "id": 3,
+              "num": 30,
+              "name": "Estúdio",
+              "cap": 5,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-08T07:45:21.505Z",
+            "updated_at": "2023-03-08T07:45:21.505Z",
+            "deleted_at": null
+          },
+          {
+            "id": 68998583,
+            "system": "website",
+            "date": "2023-03-08T11:00:00.000Z",
+            "type": 1,
+            "place": {
+              "id": 2,
+              "num": 25,
+              "name": "Paes Nunes",
+              "cap": 60,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-17T15:45:21.505Z",
+            "updated_at": "2023-03-17T15:45:21.505Z",
+            "deleted_at": null
+          },
+          {
+            "id": 96414621,
+            "system": "app",
+            "date": "2023-03-06T07:00:00.000Z",
+            "type": 1,
+            "place": {
+              "id": 6,
+              "num": 14,
+              "name": "Sala 14",
+              "cap": 12,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-04T04:45:21.505Z",
+            "updated_at": "2023-03-04T04:45:21.505Z",
+            "deleted_at": null
+          },
+          {
+            "id": 7322928,
+            "system": "app",
+            "date": "2023-03-09T06:00:00.000Z",
+            "type": 0,
+            "place": {
+              "id": 3,
+              "num": 30,
+              "name": "Estúdio",
+              "cap": 5,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-10T17:45:21.505Z",
+            "updated_at": "2023-03-10T17:45:21.505Z",
+            "deleted_at": null
+          },
+          {
+            "id": 34795424,
+            "system": "app",
+            "date": "2023-03-06T16:00:00.000Z",
+            "type": 1,
+            "place": {
+              "id": 1,
+              "num": 13,
+              "name": "Sala 13",
+              "cap": 5,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-10T11:45:21.505Z",
+            "updated_at": "2023-03-10T11:45:21.505Z",
+            "deleted_at": null
+          }
+        ],
+        "enrollment_year": 2014,
+        "created_at": "2014-03-03T14:45:21.507Z",
+        "updated_at": "2014-03-03T14:45:21.507Z",
+        "deleted_at": null
+      },
+      {
+        "id": 16303,
+        "course_taker_id": "489867",
+        "name": "Evan Thompson",
+        "age": 30,
+        "address": {
+          "state": "Montana",
+          "city": "Lake Logan",
+          "zip_code": "79096",
+          "number": "5285"
+        },
+        "phone_number": "801-225-8163",
+        "birth_date": "3/03/1996",
+        "rg": "36_939_605-56",
+        "courses": [
+          {
+            "id": 55,
+            "name": "Music",
+            "catalogue": 70,
+            "specialties": [
+              {
+                "id": 7,
+                "name": "Violão Erudito"
+              }
+            ],
+            "created_at": "1995-02-11T20:51:00.220Z",
+            "updated_at": "1995-02-11T20:51:00.220Z",
+            "deleted_at": null
+          }
+        ],
+        "allocs": [
+          {
+            "id": 20149801,
+            "system": "website",
+            "date": "2023-03-05T16:00:00.000Z",
+            "type": 0,
+            "place": {
+              "id": 3,
+              "num": 30,
+              "name": "Estúdio",
+              "cap": 5,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-15T19:45:21.507Z",
+            "updated_at": "2023-03-15T19:45:21.507Z",
+            "deleted_at": null
+          },
+          {
+            "id": 20802239,
+            "system": "app",
+            "date": "2023-03-07T19:00:00.000Z",
+            "type": 1,
+            "place": {
+              "id": 3,
+              "num": 30,
+              "name": "Estúdio",
+              "cap": 5,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-13T11:45:21.507Z",
+            "updated_at": "2023-03-13T11:45:21.507Z",
+            "deleted_at": null
+          },
+          {
+            "id": 72845802,
+            "system": "app",
+            "date": "2023-03-07T17:00:00.000Z",
+            "type": 0,
+            "place": {
+              "id": 2,
+              "num": 25,
+              "name": "Paes Nunes",
+              "cap": 60,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-13T08:45:21.507Z",
+            "updated_at": "2023-03-13T08:45:21.507Z",
+            "deleted_at": null
+          },
+          {
+            "id": 36445030,
+            "system": "website",
+            "date": "2023-03-07T22:00:00.000Z",
+            "type": 1,
+            "place": {
+              "id": 4,
+              "num": 41,
+              "name": "Sala 41",
+              "cap": 30,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-08T17:45:21.507Z",
+            "updated_at": "2023-03-08T17:45:21.507Z",
+            "deleted_at": null
+          },
+          {
+            "id": 18561373,
+            "system": "website",
+            "date": "2023-03-04T19:00:00.000Z",
+            "type": 1,
+            "place": {
+              "id": 2,
+              "num": 25,
+              "name": "Paes Nunes",
+              "cap": 60,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-16T07:45:21.507Z",
+            "updated_at": "2023-03-16T07:45:21.507Z",
+            "deleted_at": null
+          },
+          {
+            "id": 97639232,
+            "system": "website",
+            "date": "2023-03-10T03:00:00.000Z",
+            "type": 1,
+            "place": {
+              "id": 2,
+              "num": 25,
+              "name": "Paes Nunes",
+              "cap": 60,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-09T04:45:21.507Z",
+            "updated_at": "2023-03-09T04:45:21.507Z",
+            "deleted_at": null
+          },
+          {
+            "id": 63874894,
+            "system": "app",
+            "date": "2023-03-06T09:00:00.000Z",
+            "type": 0,
+            "place": {
+              "id": 5,
+              "num": 33,
+              "name": "Sala 33",
+              "cap": 10,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-13T02:45:21.507Z",
+            "updated_at": "2023-03-13T02:45:21.507Z",
+            "deleted_at": null
+          },
+          {
+            "id": 86539134,
+            "system": "website",
+            "date": "2023-03-08T05:00:00.000Z",
+            "type": 1,
+            "place": {
+              "id": 2,
+              "num": 25,
+              "name": "Paes Nunes",
+              "cap": 60,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-15T15:45:21.507Z",
+            "updated_at": "2023-03-15T15:45:21.507Z",
+            "deleted_at": null
+          },
+          {
+            "id": 90320187,
+            "system": "app",
+            "date": "2023-03-05T18:00:00.000Z",
+            "type": 0,
+            "place": {
+              "id": 1,
+              "num": 13,
+              "name": "Sala 13",
+              "cap": 5,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-16T09:45:21.507Z",
+            "updated_at": "2023-03-16T09:45:21.507Z",
+            "deleted_at": null
+          },
+          {
+            "id": 21871884,
+            "system": "app",
+            "date": "2023-03-04T17:00:00.000Z",
+            "type": 1,
+            "place": {
+              "id": 5,
+              "num": 33,
+              "name": "Sala 33",
+              "cap": 10,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-11T10:45:21.507Z",
+            "updated_at": "2023-03-11T10:45:21.507Z",
+            "deleted_at": null
+          },
+          {
+            "id": 59018390,
+            "system": "website",
+            "date": "2023-03-08T14:00:00.000Z",
+            "type": 1,
+            "place": {
+              "id": 6,
+              "num": 14,
+              "name": "Sala 14",
+              "cap": 12,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-04T01:45:21.507Z",
+            "updated_at": "2023-03-04T01:45:21.507Z",
+            "deleted_at": null
+          },
+          {
+            "id": 42170869,
+            "system": "app",
+            "date": "2023-03-04T00:00:00.000Z",
+            "type": 0,
+            "place": {
+              "id": 6,
+              "num": 14,
+              "name": "Sala 14",
+              "cap": 12,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-12T10:45:21.507Z",
+            "updated_at": "2023-03-12T10:45:21.507Z",
+            "deleted_at": null
+          },
+          {
+            "id": 20138463,
+            "system": "website",
+            "date": "2023-03-07T04:00:00.000Z",
+            "type": 1,
+            "place": {
+              "id": 4,
+              "num": 41,
+              "name": "Sala 41",
+              "cap": 30,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-04T10:45:21.507Z",
+            "updated_at": "2023-03-04T10:45:21.507Z",
+            "deleted_at": null
+          },
+          {
+            "id": 81345815,
+            "system": "app",
+            "date": "2023-03-05T09:00:00.000Z",
+            "type": 0,
+            "place": {
+              "id": 5,
+              "num": 33,
+              "name": "Sala 33",
+              "cap": 10,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-18T12:45:21.507Z",
+            "updated_at": "2023-03-18T12:45:21.507Z",
+            "deleted_at": null
+          },
+          {
+            "id": 3944581,
+            "system": "website",
+            "date": "2023-03-05T05:00:00.000Z",
+            "type": 1,
+            "place": {
+              "id": 6,
+              "num": 14,
+              "name": "Sala 14",
+              "cap": 12,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-05T23:45:21.507Z",
+            "updated_at": "2023-03-05T23:45:21.507Z",
+            "deleted_at": null
+          },
+          {
+            "id": 37573248,
+            "system": "website",
+            "date": "2023-03-07T00:00:00.000Z",
+            "type": 1,
+            "place": {
+              "id": 5,
+              "num": 33,
+              "name": "Sala 33",
+              "cap": 10,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-12T14:45:21.507Z",
+            "updated_at": "2023-03-12T14:45:21.507Z",
+            "deleted_at": null
+          },
+          {
+            "id": 98366100,
+            "system": "website",
+            "date": "2023-03-09T13:00:00.000Z",
+            "type": 0,
+            "place": {
+              "id": 3,
+              "num": 30,
+              "name": "Estúdio",
+              "cap": 5,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-12T06:45:21.507Z",
+            "updated_at": "2023-03-12T06:45:21.507Z",
+            "deleted_at": null
+          },
+          {
+            "id": 58068397,
+            "system": "app",
+            "date": "2023-03-06T23:00:00.000Z",
+            "type": 1,
+            "place": {
+              "id": 3,
+              "num": 30,
+              "name": "Estúdio",
+              "cap": 5,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-06T22:45:21.507Z",
+            "updated_at": "2023-03-06T22:45:21.507Z",
+            "deleted_at": null
+          },
+          {
+            "id": 40362249,
+            "system": "app",
+            "date": "2023-03-04T10:00:00.000Z",
+            "type": 0,
+            "place": {
+              "id": 3,
+              "num": 30,
+              "name": "Estúdio",
+              "cap": 5,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-12T12:45:21.507Z",
+            "updated_at": "2023-03-12T12:45:21.507Z",
+            "deleted_at": null
+          },
+          {
+            "id": 52979032,
+            "system": "website",
+            "date": "2023-03-05T13:00:00.000Z",
+            "type": 1,
+            "place": {
+              "id": 2,
+              "num": 25,
+              "name": "Paes Nunes",
+              "cap": 60,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-12T01:45:21.507Z",
+            "updated_at": "2023-03-12T01:45:21.507Z",
+            "deleted_at": null
+          },
+          {
+            "id": 47901555,
+            "system": "app",
+            "date": "2023-03-09T21:00:00.000Z",
+            "type": 0,
+            "place": {
+              "id": 1,
+              "num": 13,
+              "name": "Sala 13",
+              "cap": 5,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-04T17:45:21.507Z",
+            "updated_at": "2023-03-04T17:45:21.507Z",
+            "deleted_at": null
+          },
+          {
+            "id": 66627606,
+            "system": "app",
+            "date": "2023-03-04T21:00:00.000Z",
+            "type": 1,
+            "place": {
+              "id": 3,
+              "num": 30,
+              "name": "Estúdio",
+              "cap": 5,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-06T17:45:21.507Z",
+            "updated_at": "2023-03-06T17:45:21.507Z",
+            "deleted_at": null
+          },
+          {
+            "id": 71573097,
+            "system": "website",
+            "date": "2023-03-07T18:00:00.000Z",
+            "type": 0,
+            "place": {
+              "id": 5,
+              "num": 33,
+              "name": "Sala 33",
+              "cap": 10,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-09T17:45:21.507Z",
+            "updated_at": "2023-03-09T17:45:21.507Z",
+            "deleted_at": null
+          },
+          {
+            "id": 89274517,
+            "system": "website",
+            "date": "2023-03-09T14:00:00.000Z",
+            "type": 0,
+            "place": {
+              "id": 1,
+              "num": 13,
+              "name": "Sala 13",
+              "cap": 5,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-07T04:45:21.507Z",
+            "updated_at": "2023-03-07T04:45:21.507Z",
+            "deleted_at": null
+          },
+          {
+            "id": 34170329,
+            "system": "website",
+            "date": "2023-03-06T06:00:00.000Z",
+            "type": 1,
+            "place": {
+              "id": 3,
+              "num": 30,
+              "name": "Estúdio",
+              "cap": 5,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-14T21:45:21.507Z",
+            "updated_at": "2023-03-14T21:45:21.507Z",
+            "deleted_at": null
+          },
+          {
+            "id": 46816801,
+            "system": "website",
+            "date": "2023-03-05T06:00:00.000Z",
+            "type": 0,
+            "place": {
+              "id": 5,
+              "num": 33,
+              "name": "Sala 33",
+              "cap": 10,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-16T21:45:21.507Z",
+            "updated_at": "2023-03-16T21:45:21.507Z",
+            "deleted_at": null
+          },
+          {
+            "id": 94292324,
+            "system": "app",
+            "date": "2023-03-05T11:00:00.000Z",
+            "type": 1,
+            "place": {
+              "id": 3,
+              "num": 30,
+              "name": "Estúdio",
+              "cap": 5,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-15T06:45:21.507Z",
+            "updated_at": "2023-03-15T06:45:21.507Z",
+            "deleted_at": null
+          },
+          {
+            "id": 93591732,
+            "system": "app",
+            "date": "2023-03-09T01:00:00.000Z",
+            "type": 0,
+            "place": {
+              "id": 3,
+              "num": 30,
+              "name": "Estúdio",
+              "cap": 5,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-07T09:45:21.507Z",
+            "updated_at": "2023-03-07T09:45:21.507Z",
+            "deleted_at": null
+          },
+          {
+            "id": 98500082,
+            "system": "app",
+            "date": "2023-03-08T15:00:00.000Z",
+            "type": 1,
+            "place": {
+              "id": 2,
+              "num": 25,
+              "name": "Paes Nunes",
+              "cap": 60,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-11T17:45:21.507Z",
+            "updated_at": "2023-03-11T17:45:21.507Z",
+            "deleted_at": null
+          },
+          {
+            "id": 94376723,
+            "system": "app",
+            "date": "2023-03-04T03:00:00.000Z",
+            "type": 1,
+            "place": {
+              "id": 1,
+              "num": 13,
+              "name": "Sala 13",
+              "cap": 5,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-12T09:45:21.507Z",
+            "updated_at": "2023-03-12T09:45:21.507Z",
+            "deleted_at": null
+          },
+          {
+            "id": 665873,
+            "system": "website",
+            "date": "2023-03-09T00:00:00.000Z",
+            "type": 1,
+            "place": {
+              "id": 2,
+              "num": 25,
+              "name": "Paes Nunes",
+              "cap": 60,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-13T09:45:21.507Z",
+            "updated_at": "2023-03-13T09:45:21.507Z",
+            "deleted_at": null
+          },
+          {
+            "id": 17310872,
+            "system": "app",
+            "date": "2023-03-06T04:00:00.000Z",
+            "type": 1,
+            "place": {
+              "id": 5,
+              "num": 33,
+              "name": "Sala 33",
+              "cap": 10,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-10T07:45:21.507Z",
+            "updated_at": "2023-03-10T07:45:21.507Z",
+            "deleted_at": null
+          },
+          {
+            "id": 35568282,
+            "system": "app",
+            "date": "2023-03-09T08:00:00.000Z",
+            "type": 0,
+            "place": {
+              "id": 6,
+              "num": 14,
+              "name": "Sala 14",
+              "cap": 12,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-04T21:45:21.508Z",
+            "updated_at": "2023-03-04T21:45:21.508Z",
+            "deleted_at": null
+          },
+          {
+            "id": 14943593,
+            "system": "app",
+            "date": "2023-03-05T14:00:00.000Z",
+            "type": 0,
+            "place": {
+              "id": 2,
+              "num": 25,
+              "name": "Paes Nunes",
+              "cap": 60,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-04T20:45:21.508Z",
+            "updated_at": "2023-03-04T20:45:21.508Z",
+            "deleted_at": null
+          },
+          {
+            "id": 28428047,
+            "system": "website",
+            "date": "2023-03-06T01:00:00.000Z",
+            "type": 0,
+            "place": {
+              "id": 6,
+              "num": 14,
+              "name": "Sala 14",
+              "cap": 12,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-07T09:45:21.508Z",
+            "updated_at": "2023-03-07T09:45:21.508Z",
+            "deleted_at": null
+          },
+          {
+            "id": 72797785,
+            "system": "website",
+            "date": "2023-03-10T00:00:00.000Z",
+            "type": 1,
+            "place": {
+              "id": 6,
+              "num": 14,
+              "name": "Sala 14",
+              "cap": 12,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-11T07:45:21.508Z",
+            "updated_at": "2023-03-11T07:45:21.508Z",
+            "deleted_at": null
+          },
+          {
+            "id": 7646780,
+            "system": "app",
+            "date": "2023-03-07T08:00:00.000Z",
+            "type": 0,
+            "place": {
+              "id": 4,
+              "num": 41,
+              "name": "Sala 41",
+              "cap": 30,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-17T05:45:21.508Z",
+            "updated_at": "2023-03-17T05:45:21.508Z",
+            "deleted_at": null
+          },
+          {
+            "id": 9594392,
+            "system": "website",
+            "date": "2023-03-04T14:00:00.000Z",
+            "type": 0,
+            "place": {
+              "id": 4,
+              "num": 41,
+              "name": "Sala 41",
+              "cap": 30,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-15T16:45:21.508Z",
+            "updated_at": "2023-03-15T16:45:21.508Z",
+            "deleted_at": null
+          },
+          {
+            "id": 54562448,
+            "system": "app",
+            "date": "2023-03-05T20:00:00.000Z",
+            "type": 0,
+            "place": {
+              "id": 1,
+              "num": 13,
+              "name": "Sala 13",
+              "cap": 5,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-04T01:45:21.508Z",
+            "updated_at": "2023-03-04T01:45:21.508Z",
+            "deleted_at": null
+          },
+          {
+            "id": 58232031,
+            "system": "app",
+            "date": "2023-03-05T21:00:00.000Z",
+            "type": 1,
+            "place": {
+              "id": 3,
+              "num": 30,
+              "name": "Estúdio",
+              "cap": 5,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-06T12:45:21.508Z",
+            "updated_at": "2023-03-06T12:45:21.508Z",
+            "deleted_at": null
+          },
+          {
+            "id": 96030748,
+            "system": "website",
+            "date": "2023-03-05T07:00:00.000Z",
+            "type": 0,
+            "place": {
+              "id": 3,
+              "num": 30,
+              "name": "Estúdio",
+              "cap": 5,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-08T04:45:21.508Z",
+            "updated_at": "2023-03-08T04:45:21.508Z",
+            "deleted_at": null
+          },
+          {
+            "id": 10358296,
+            "system": "app",
+            "date": "2023-03-09T16:00:00.000Z",
+            "type": 0,
+            "place": {
+              "id": 2,
+              "num": 25,
+              "name": "Paes Nunes",
+              "cap": 60,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-06T13:45:21.508Z",
+            "updated_at": "2023-03-06T13:45:21.508Z",
+            "deleted_at": null
+          },
+          {
+            "id": 90407619,
+            "system": "app",
+            "date": "2023-03-04T15:00:00.000Z",
+            "type": 1,
+            "place": {
+              "id": 1,
+              "num": 13,
+              "name": "Sala 13",
+              "cap": 5,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-09T15:45:21.508Z",
+            "updated_at": "2023-03-09T15:45:21.508Z",
+            "deleted_at": null
+          },
+          {
+            "id": 69925803,
+            "system": "app",
+            "date": "2023-03-09T19:00:00.000Z",
+            "type": 0,
+            "place": {
+              "id": 5,
+              "num": 33,
+              "name": "Sala 33",
+              "cap": 10,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-07T02:45:21.508Z",
+            "updated_at": "2023-03-07T02:45:21.508Z",
+            "deleted_at": null
+          },
+          {
+            "id": 1033745,
+            "system": "website",
+            "date": "2023-03-07T07:00:00.000Z",
+            "type": 0,
+            "place": {
+              "id": 6,
+              "num": 14,
+              "name": "Sala 14",
+              "cap": 12,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-09T01:45:21.508Z",
+            "updated_at": "2023-03-09T01:45:21.508Z",
+            "deleted_at": null
+          },
+          {
+            "id": 99644697,
+            "system": "website",
+            "date": "2023-03-07T01:00:00.000Z",
+            "type": 0,
+            "place": {
+              "id": 3,
+              "num": 30,
+              "name": "Estúdio",
+              "cap": 5,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-11T13:45:21.508Z",
+            "updated_at": "2023-03-11T13:45:21.508Z",
+            "deleted_at": null
+          }
+        ],
+        "enrollment_year": 2021,
+        "created_at": "2021-03-03T14:45:21.511Z",
+        "updated_at": "2021-03-03T14:45:21.511Z",
+        "deleted_at": null
+      },
+      {
+        "id": 6264,
+        "course_taker_id": "281961",
+        "name": "Lee Hahn",
+        "age": 23,
+        "address": {
+          "state": "North Dakota",
+          "city": "Lillaland",
+          "zip_code": "26371-7845",
+          "number": "4401"
+        },
+        "phone_number": "(857) 718-6795",
+        "birth_date": "3/03/1999",
+        "rg": "57d187#246-86",
+        "courses": [
+          {
+            "id": 55,
+            "name": "Music",
+            "catalogue": 70,
+            "specialties": [
+              {
+                "id": 3,
+                "name": "Canto Erudito"
+              }
+            ],
+            "created_at": "1995-02-11T20:51:00.220Z",
+            "updated_at": "1995-02-11T20:51:00.220Z",
+            "deleted_at": null
+          }
+        ],
+        "allocs": [
+          {
+            "id": 32194435,
+            "system": "website",
+            "date": "2023-03-06T06:00:00.000Z",
+            "type": 1,
+            "place": {
+              "id": 2,
+              "num": 25,
+              "name": "Paes Nunes",
+              "cap": 60,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-16T00:45:21.511Z",
+            "updated_at": "2023-03-16T00:45:21.511Z",
+            "deleted_at": null
+          },
+          {
+            "id": 43213398,
+            "system": "app",
+            "date": "2023-03-09T03:00:00.000Z",
+            "type": 0,
+            "place": {
+              "id": 3,
+              "num": 30,
+              "name": "Estúdio",
+              "cap": 5,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-15T18:45:21.511Z",
+            "updated_at": "2023-03-15T18:45:21.511Z",
+            "deleted_at": null
+          },
+          {
+            "id": 70409219,
+            "system": "app",
+            "date": "2023-03-03T13:00:00.000Z",
+            "type": 0,
+            "place": {
+              "id": 5,
+              "num": 33,
+              "name": "Sala 33",
+              "cap": 10,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-17T22:45:21.511Z",
+            "updated_at": "2023-03-17T22:45:21.511Z",
+            "deleted_at": null
+          },
+          {
+            "id": 12322528,
+            "system": "website",
+            "date": "2023-03-08T01:00:00.000Z",
+            "type": 1,
+            "place": {
+              "id": 6,
+              "num": 14,
+              "name": "Sala 14",
+              "cap": 12,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-05T15:45:21.511Z",
+            "updated_at": "2023-03-05T15:45:21.511Z",
+            "deleted_at": null
+          },
+          {
+            "id": 25844361,
+            "system": "app",
+            "date": "2023-03-06T20:00:00.000Z",
+            "type": 0,
+            "place": {
+              "id": 6,
+              "num": 14,
+              "name": "Sala 14",
+              "cap": 12,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-16T08:45:21.511Z",
+            "updated_at": "2023-03-16T08:45:21.511Z",
+            "deleted_at": null
+          },
+          {
+            "id": 42889316,
+            "system": "app",
+            "date": "2023-03-05T10:00:00.000Z",
+            "type": 0,
+            "place": {
+              "id": 5,
+              "num": 33,
+              "name": "Sala 33",
+              "cap": 10,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-13T20:45:21.511Z",
+            "updated_at": "2023-03-13T20:45:21.511Z",
+            "deleted_at": null
+          },
+          {
+            "id": 92161791,
+            "system": "website",
+            "date": "2023-03-07T10:00:00.000Z",
+            "type": 0,
+            "place": {
+              "id": 2,
+              "num": 25,
+              "name": "Paes Nunes",
+              "cap": 60,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-06T06:45:21.511Z",
+            "updated_at": "2023-03-06T06:45:21.511Z",
+            "deleted_at": null
+          },
+          {
+            "id": 1354193,
+            "system": "website",
+            "date": "2023-03-05T22:00:00.000Z",
+            "type": 1,
+            "place": {
+              "id": 5,
+              "num": 33,
+              "name": "Sala 33",
+              "cap": 10,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-12T07:45:21.511Z",
+            "updated_at": "2023-03-12T07:45:21.511Z",
+            "deleted_at": null
+          },
+          {
+            "id": 24577938,
+            "system": "app",
+            "date": "2023-03-09T00:00:00.000Z",
+            "type": 0,
+            "place": {
+              "id": 6,
+              "num": 14,
+              "name": "Sala 14",
+              "cap": 12,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-06T13:45:21.511Z",
+            "updated_at": "2023-03-06T13:45:21.511Z",
+            "deleted_at": null
+          },
+          {
+            "id": 20088615,
+            "system": "website",
+            "date": "2023-03-07T23:00:00.000Z",
+            "type": 0,
+            "place": {
+              "id": 1,
+              "num": 13,
+              "name": "Sala 13",
+              "cap": 5,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-12T08:45:21.511Z",
+            "updated_at": "2023-03-12T08:45:21.511Z",
+            "deleted_at": null
+          },
+          {
+            "id": 70520585,
+            "system": "website",
+            "date": "2023-03-08T22:00:00.000Z",
+            "type": 1,
+            "place": {
+              "id": 2,
+              "num": 25,
+              "name": "Paes Nunes",
+              "cap": 60,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-07T06:45:21.511Z",
+            "updated_at": "2023-03-07T06:45:21.511Z",
+            "deleted_at": null
+          },
+          {
+            "id": 11138228,
+            "system": "app",
+            "date": "2023-03-04T17:00:00.000Z",
+            "type": 0,
+            "place": {
+              "id": 6,
+              "num": 14,
+              "name": "Sala 14",
+              "cap": 12,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-05T00:45:21.511Z",
+            "updated_at": "2023-03-05T00:45:21.511Z",
+            "deleted_at": null
+          },
+          {
+            "id": 2552551,
+            "system": "app",
+            "date": "2023-03-09T12:00:00.000Z",
+            "type": 1,
+            "place": {
+              "id": 6,
+              "num": 14,
+              "name": "Sala 14",
+              "cap": 12,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-12T22:45:21.511Z",
+            "updated_at": "2023-03-12T22:45:21.511Z",
+            "deleted_at": null
+          },
+          {
+            "id": 46234076,
+            "system": "website",
+            "date": "2023-03-05T11:00:00.000Z",
+            "type": 1,
+            "place": {
+              "id": 6,
+              "num": 14,
+              "name": "Sala 14",
+              "cap": 12,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-10T12:45:21.511Z",
+            "updated_at": "2023-03-10T12:45:21.511Z",
+            "deleted_at": null
+          },
+          {
+            "id": 82095064,
+            "system": "app",
+            "date": "2023-03-06T12:00:00.000Z",
+            "type": 1,
+            "place": {
+              "id": 1,
+              "num": 13,
+              "name": "Sala 13",
+              "cap": 5,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-13T01:45:21.511Z",
+            "updated_at": "2023-03-13T01:45:21.511Z",
+            "deleted_at": null
+          },
+          {
+            "id": 66934379,
+            "system": "website",
+            "date": "2023-03-07T14:00:00.000Z",
+            "type": 1,
+            "place": {
+              "id": 6,
+              "num": 14,
+              "name": "Sala 14",
+              "cap": 12,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-12T08:45:21.511Z",
+            "updated_at": "2023-03-12T08:45:21.511Z",
+            "deleted_at": null
+          },
+          {
+            "id": 61535552,
+            "system": "app",
+            "date": "2023-03-03T19:00:00.000Z",
+            "type": 0,
+            "place": {
+              "id": 6,
+              "num": 14,
+              "name": "Sala 14",
+              "cap": 12,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-13T22:45:21.511Z",
+            "updated_at": "2023-03-13T22:45:21.511Z",
+            "deleted_at": null
+          },
+          {
+            "id": 42496138,
+            "system": "website",
+            "date": "2023-03-06T15:00:00.000Z",
+            "type": 1,
+            "place": {
+              "id": 1,
+              "num": 13,
+              "name": "Sala 13",
+              "cap": 5,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-11T04:45:21.511Z",
+            "updated_at": "2023-03-11T04:45:21.511Z",
+            "deleted_at": null
+          },
+          {
+            "id": 22380741,
+            "system": "website",
+            "date": "2023-03-05T07:00:00.000Z",
+            "type": 1,
+            "place": {
+              "id": 2,
+              "num": 25,
+              "name": "Paes Nunes",
+              "cap": 60,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-17T05:45:21.511Z",
+            "updated_at": "2023-03-17T05:45:21.511Z",
+            "deleted_at": null
+          },
+          {
+            "id": 19027900,
+            "system": "app",
+            "date": "2023-03-05T13:00:00.000Z",
+            "type": 0,
+            "place": {
+              "id": 5,
+              "num": 33,
+              "name": "Sala 33",
+              "cap": 10,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-11T05:45:21.511Z",
+            "updated_at": "2023-03-11T05:45:21.511Z",
+            "deleted_at": null
+          },
+          {
+            "id": 87703485,
+            "system": "website",
+            "date": "2023-03-06T04:00:00.000Z",
+            "type": 1,
+            "place": {
+              "id": 6,
+              "num": 14,
+              "name": "Sala 14",
+              "cap": 12,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-03T17:45:21.511Z",
+            "updated_at": "2023-03-03T17:45:21.511Z",
+            "deleted_at": null
+          },
+          {
+            "id": 72915196,
+            "system": "app",
+            "date": "2023-03-09T23:00:00.000Z",
+            "type": 1,
+            "place": {
+              "id": 5,
+              "num": 33,
+              "name": "Sala 33",
+              "cap": 10,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-13T00:45:21.512Z",
+            "updated_at": "2023-03-13T00:45:21.512Z",
+            "deleted_at": null
+          },
+          {
+            "id": 32037465,
+            "system": "website",
+            "date": "2023-03-08T00:00:00.000Z",
+            "type": 0,
+            "place": {
+              "id": 1,
+              "num": 13,
+              "name": "Sala 13",
+              "cap": 5,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-14T02:45:21.512Z",
+            "updated_at": "2023-03-14T02:45:21.512Z",
+            "deleted_at": null
+          },
+          {
+            "id": 73091079,
+            "system": "website",
+            "date": "2023-03-04T13:00:00.000Z",
+            "type": 0,
+            "place": {
+              "id": 6,
+              "num": 14,
+              "name": "Sala 14",
+              "cap": 12,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-12T10:45:21.512Z",
+            "updated_at": "2023-03-12T10:45:21.512Z",
+            "deleted_at": null
+          },
+          {
+            "id": 83964037,
+            "system": "app",
+            "date": "2023-03-05T00:00:00.000Z",
+            "type": 0,
+            "place": {
+              "id": 1,
+              "num": 13,
+              "name": "Sala 13",
+              "cap": 5,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-07T20:45:21.512Z",
+            "updated_at": "2023-03-07T20:45:21.512Z",
+            "deleted_at": null
+          },
+          {
+            "id": 73313783,
+            "system": "website",
+            "date": "2023-03-07T09:00:00.000Z",
+            "type": 1,
+            "place": {
+              "id": 6,
+              "num": 14,
+              "name": "Sala 14",
+              "cap": 12,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-18T07:45:21.512Z",
+            "updated_at": "2023-03-18T07:45:21.512Z",
+            "deleted_at": null
+          },
+          {
+            "id": 65280785,
+            "system": "website",
+            "date": "2023-03-07T05:00:00.000Z",
+            "type": 1,
+            "place": {
+              "id": 1,
+              "num": 13,
+              "name": "Sala 13",
+              "cap": 5,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-04T16:45:21.512Z",
+            "updated_at": "2023-03-04T16:45:21.512Z",
+            "deleted_at": null
+          },
+          {
+            "id": 55619935,
+            "system": "app",
+            "date": "2023-03-08T17:00:00.000Z",
+            "type": 0,
+            "place": {
+              "id": 3,
+              "num": 30,
+              "name": "Estúdio",
+              "cap": 5,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-03T19:45:21.512Z",
+            "updated_at": "2023-03-03T19:45:21.512Z",
+            "deleted_at": null
+          },
+          {
+            "id": 82753173,
+            "system": "app",
+            "date": "2023-03-03T18:00:00.000Z",
+            "type": 0,
+            "place": {
+              "id": 2,
+              "num": 25,
+              "name": "Paes Nunes",
+              "cap": 60,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-11T20:45:21.512Z",
+            "updated_at": "2023-03-11T20:45:21.512Z",
+            "deleted_at": null
+          },
+          {
+            "id": 90127144,
+            "system": "website",
+            "date": "2023-03-07T15:00:00.000Z",
+            "type": 0,
+            "place": {
+              "id": 5,
+              "num": 33,
+              "name": "Sala 33",
+              "cap": 10,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-11T13:45:21.512Z",
+            "updated_at": "2023-03-11T13:45:21.512Z",
+            "deleted_at": null
+          },
+          {
+            "id": 19528594,
+            "system": "website",
+            "date": "2023-03-06T16:00:00.000Z",
+            "type": 1,
+            "place": {
+              "id": 6,
+              "num": 14,
+              "name": "Sala 14",
+              "cap": 12,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-12T15:45:21.512Z",
+            "updated_at": "2023-03-12T15:45:21.512Z",
+            "deleted_at": null
+          },
+          {
+            "id": 462038,
+            "system": "app",
+            "date": "2023-03-08T09:00:00.000Z",
+            "type": 1,
+            "place": {
+              "id": 5,
+              "num": 33,
+              "name": "Sala 33",
+              "cap": 10,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-15T01:45:21.512Z",
+            "updated_at": "2023-03-15T01:45:21.512Z",
+            "deleted_at": null
+          },
+          {
+            "id": 73389819,
+            "system": "app",
+            "date": "2023-03-08T12:00:00.000Z",
+            "type": 1,
+            "place": {
+              "id": 6,
+              "num": 14,
+              "name": "Sala 14",
+              "cap": 12,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-07T19:45:21.512Z",
+            "updated_at": "2023-03-07T19:45:21.512Z",
+            "deleted_at": null
+          },
+          {
+            "id": 16893352,
+            "system": "app",
+            "date": "2023-03-04T19:00:00.000Z",
+            "type": 1,
+            "place": {
+              "id": 3,
+              "num": 30,
+              "name": "Estúdio",
+              "cap": 5,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-04T15:45:21.512Z",
+            "updated_at": "2023-03-04T15:45:21.512Z",
+            "deleted_at": null
+          },
+          {
+            "id": 46950970,
+            "system": "website",
+            "date": "2023-03-07T07:00:00.000Z",
+            "type": 0,
+            "place": {
+              "id": 2,
+              "num": 25,
+              "name": "Paes Nunes",
+              "cap": 60,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-05T23:45:21.512Z",
+            "updated_at": "2023-03-05T23:45:21.512Z",
+            "deleted_at": null
+          },
+          {
+            "id": 19350096,
+            "system": "website",
+            "date": "2023-03-08T19:00:00.000Z",
+            "type": 1,
+            "place": {
+              "id": 6,
+              "num": 14,
+              "name": "Sala 14",
+              "cap": 12,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-08T19:45:21.512Z",
+            "updated_at": "2023-03-08T19:45:21.512Z",
+            "deleted_at": null
+          },
+          {
+            "id": 83691086,
+            "system": "website",
+            "date": "2023-03-06T13:00:00.000Z",
+            "type": 0,
+            "place": {
+              "id": 5,
+              "num": 33,
+              "name": "Sala 33",
+              "cap": 10,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-13T23:45:21.512Z",
+            "updated_at": "2023-03-13T23:45:21.512Z",
+            "deleted_at": null
+          },
+          {
+            "id": 60287741,
+            "system": "website",
+            "date": "2023-03-06T05:00:00.000Z",
+            "type": 1,
+            "place": {
+              "id": 5,
+              "num": 33,
+              "name": "Sala 33",
+              "cap": 10,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-15T23:45:21.512Z",
+            "updated_at": "2023-03-15T23:45:21.512Z",
+            "deleted_at": null
+          },
+          {
+            "id": 88227503,
+            "system": "app",
+            "date": "2023-03-08T08:00:00.000Z",
+            "type": 0,
+            "place": {
+              "id": 6,
+              "num": 14,
+              "name": "Sala 14",
+              "cap": 12,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-04T07:45:21.512Z",
+            "updated_at": "2023-03-04T07:45:21.512Z",
+            "deleted_at": null
+          },
+          {
+            "id": 53693738,
+            "system": "website",
+            "date": "2023-03-03T22:00:00.000Z",
+            "type": 1,
+            "place": {
+              "id": 3,
+              "num": 30,
+              "name": "Estúdio",
+              "cap": 5,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-14T14:45:21.512Z",
+            "updated_at": "2023-03-14T14:45:21.512Z",
+            "deleted_at": null
+          },
+          {
+            "id": 94586916,
+            "system": "website",
+            "date": "2023-03-07T13:00:00.000Z",
+            "type": 1,
+            "place": {
+              "id": 1,
+              "num": 13,
+              "name": "Sala 13",
+              "cap": 5,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-15T01:45:21.512Z",
+            "updated_at": "2023-03-15T01:45:21.512Z",
+            "deleted_at": null
+          },
+          {
+            "id": 26594590,
+            "system": "website",
+            "date": "2023-03-08T03:00:00.000Z",
+            "type": 1,
+            "place": {
+              "id": 3,
+              "num": 30,
+              "name": "Estúdio",
+              "cap": 5,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-06T07:45:21.512Z",
+            "updated_at": "2023-03-06T07:45:21.512Z",
+            "deleted_at": null
+          },
+          {
+            "id": 6745445,
+            "system": "app",
+            "date": "2023-03-07T06:00:00.000Z",
+            "type": 0,
+            "place": {
+              "id": 1,
+              "num": 13,
+              "name": "Sala 13",
+              "cap": 5,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-09T12:45:21.512Z",
+            "updated_at": "2023-03-09T12:45:21.512Z",
+            "deleted_at": null
+          },
+          {
+            "id": 60963975,
+            "system": "app",
+            "date": "2023-03-07T00:00:00.000Z",
+            "type": 0,
+            "place": {
+              "id": 3,
+              "num": 30,
+              "name": "Estúdio",
+              "cap": 5,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-17T16:45:21.512Z",
+            "updated_at": "2023-03-17T16:45:21.512Z",
+            "deleted_at": null
+          },
+          {
+            "id": 92270757,
+            "system": "website",
+            "date": "2023-03-06T19:00:00.000Z",
+            "type": 0,
+            "place": {
+              "id": 5,
+              "num": 33,
+              "name": "Sala 33",
+              "cap": 10,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-09T23:45:21.512Z",
+            "updated_at": "2023-03-09T23:45:21.512Z",
+            "deleted_at": null
+          },
+          {
+            "id": 73950413,
+            "system": "app",
+            "date": "2023-03-06T10:00:00.000Z",
+            "type": 0,
+            "place": {
+              "id": 6,
+              "num": 14,
+              "name": "Sala 14",
+              "cap": 12,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-17T08:45:21.512Z",
+            "updated_at": "2023-03-17T08:45:21.512Z",
+            "deleted_at": null
+          }
+        ],
+        "enrollment_year": 2015,
+        "created_at": "2015-03-03T14:45:21.515Z",
+        "updated_at": "2015-03-03T14:45:21.515Z",
+        "deleted_at": null
+      },
+      {
+        "id": 60403,
+        "course_taker_id": "146339",
+        "name": "Leslie Haley",
+        "age": 23,
+        "address": {
+          "state": "Washington",
+          "city": "Baileyfurt",
+          "zip_code": "85725-9549",
+          "number": "867"
+        },
+        "phone_number": "1-258-889-8132 x544",
+        "birth_date": "3/03/1994",
+        "rg": "99_218U064-27",
+        "courses": [
+          {
+            "id": 55,
+            "name": "Music",
+            "catalogue": 70,
+            "specialties": [
+              {
+                "id": 5,
+                "name": "Piano Erudito"
+              }
+            ],
+            "created_at": "1995-02-11T20:51:00.220Z",
+            "updated_at": "1995-02-11T20:51:00.220Z",
+            "deleted_at": null
+          }
+        ],
+        "allocs": [
+          {
+            "id": 52297381,
+            "system": "website",
+            "date": "2023-03-05T00:00:00.000Z",
+            "type": 0,
+            "place": {
+              "id": 3,
+              "num": 30,
+              "name": "Estúdio",
+              "cap": 5,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-18T02:45:21.515Z",
+            "updated_at": "2023-03-18T02:45:21.515Z",
+            "deleted_at": null
+          },
+          {
+            "id": 38386030,
+            "system": "app",
+            "date": "2023-03-07T06:00:00.000Z",
+            "type": 1,
+            "place": {
+              "id": 2,
+              "num": 25,
+              "name": "Paes Nunes",
+              "cap": 60,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-09T13:45:21.515Z",
+            "updated_at": "2023-03-09T13:45:21.515Z",
+            "deleted_at": null
+          },
+          {
+            "id": 37799957,
+            "system": "app",
+            "date": "2023-03-08T16:00:00.000Z",
+            "type": 1,
+            "place": {
+              "id": 4,
+              "num": 41,
+              "name": "Sala 41",
+              "cap": 30,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-11T15:45:21.515Z",
+            "updated_at": "2023-03-11T15:45:21.515Z",
+            "deleted_at": null
+          },
+          {
+            "id": 98397736,
+            "system": "website",
+            "date": "2023-03-08T18:00:00.000Z",
+            "type": 0,
+            "place": {
+              "id": 4,
+              "num": 41,
+              "name": "Sala 41",
+              "cap": 30,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-10T02:45:21.515Z",
+            "updated_at": "2023-03-10T02:45:21.515Z",
+            "deleted_at": null
+          },
+          {
+            "id": 92702287,
+            "system": "app",
+            "date": "2023-03-04T18:00:00.000Z",
+            "type": 1,
+            "place": {
+              "id": 6,
+              "num": 14,
+              "name": "Sala 14",
+              "cap": 12,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-13T05:45:21.515Z",
+            "updated_at": "2023-03-13T05:45:21.515Z",
+            "deleted_at": null
+          },
+          {
+            "id": 51039,
+            "system": "app",
+            "date": "2023-03-06T04:00:00.000Z",
+            "type": 1,
+            "place": {
+              "id": 3,
+              "num": 30,
+              "name": "Estúdio",
+              "cap": 5,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-03T20:45:21.515Z",
+            "updated_at": "2023-03-03T20:45:21.515Z",
+            "deleted_at": null
+          },
+          {
+            "id": 73465373,
+            "system": "app",
+            "date": "2023-03-08T10:00:00.000Z",
+            "type": 0,
+            "place": {
+              "id": 6,
+              "num": 14,
+              "name": "Sala 14",
+              "cap": 12,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-09T09:45:21.515Z",
+            "updated_at": "2023-03-09T09:45:21.515Z",
+            "deleted_at": null
+          },
+          {
+            "id": 28434286,
+            "system": "app",
+            "date": "2023-03-03T17:00:00.000Z",
+            "type": 1,
+            "place": {
+              "id": 6,
+              "num": 14,
+              "name": "Sala 14",
+              "cap": 12,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-16T18:45:21.515Z",
+            "updated_at": "2023-03-16T18:45:21.515Z",
+            "deleted_at": null
+          },
+          {
+            "id": 92553595,
+            "system": "app",
+            "date": "2023-03-06T08:00:00.000Z",
+            "type": 0,
+            "place": {
+              "id": 6,
+              "num": 14,
+              "name": "Sala 14",
+              "cap": 12,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-16T12:45:21.515Z",
+            "updated_at": "2023-03-16T12:45:21.515Z",
+            "deleted_at": null
+          },
+          {
+            "id": 17427642,
+            "system": "app",
+            "date": "2023-03-05T11:00:00.000Z",
+            "type": 1,
+            "place": {
+              "id": 1,
+              "num": 13,
+              "name": "Sala 13",
+              "cap": 5,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-17T23:45:21.515Z",
+            "updated_at": "2023-03-17T23:45:21.515Z",
+            "deleted_at": null
+          },
+          {
+            "id": 55890719,
+            "system": "app",
+            "date": "2023-03-05T03:00:00.000Z",
+            "type": 1,
+            "place": {
+              "id": 4,
+              "num": 41,
+              "name": "Sala 41",
+              "cap": 30,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-11T23:45:21.515Z",
+            "updated_at": "2023-03-11T23:45:21.515Z",
+            "deleted_at": null
+          },
+          {
+            "id": 82200853,
+            "system": "app",
+            "date": "2023-03-08T14:00:00.000Z",
+            "type": 0,
+            "place": {
+              "id": 5,
+              "num": 33,
+              "name": "Sala 33",
+              "cap": 10,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-08T21:45:21.515Z",
+            "updated_at": "2023-03-08T21:45:21.515Z",
+            "deleted_at": null
+          },
+          {
+            "id": 21096159,
+            "system": "app",
+            "date": "2023-03-05T01:00:00.000Z",
+            "type": 1,
+            "place": {
+              "id": 2,
+              "num": 25,
+              "name": "Paes Nunes",
+              "cap": 60,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-10T14:45:21.515Z",
+            "updated_at": "2023-03-10T14:45:21.515Z",
+            "deleted_at": null
+          }
+        ],
+        "enrollment_year": 2017,
+        "created_at": "2017-03-03T14:45:21.515Z",
+        "updated_at": "2017-03-03T14:45:21.515Z",
+        "deleted_at": null
+      },
+      {
+        "id": 32096,
+        "course_taker_id": "116848",
+        "name": "Courtney Doyle",
+        "age": 20,
+        "address": {
+          "state": "Mississippi",
+          "city": "Lake Julianneborough",
+          "zip_code": "15087",
+          "number": "042"
+        },
+        "phone_number": "(921) 579-4816 x6613",
+        "birth_date": "3/03/1996",
+        "rg": "01{5580204-64",
+        "courses": [
+          {
+            "id": 55,
+            "name": "Music",
+            "catalogue": 70,
+            "specialties": [
+              {
+                "id": 7,
+                "name": "Violão Erudito"
+              }
+            ],
+            "created_at": "1995-02-11T20:51:00.220Z",
+            "updated_at": "1995-02-11T20:51:00.220Z",
+            "deleted_at": null
+          }
+        ],
+        "allocs": [
+          {
+            "id": 45186483,
+            "system": "website",
+            "date": "2023-03-07T15:00:00.000Z",
+            "type": 1,
+            "place": {
+              "id": 4,
+              "num": 41,
+              "name": "Sala 41",
+              "cap": 30,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-04T07:45:21.516Z",
+            "updated_at": "2023-03-04T07:45:21.516Z",
+            "deleted_at": null
+          },
+          {
+            "id": 21714331,
+            "system": "website",
+            "date": "2023-03-07T22:00:00.000Z",
+            "type": 0,
+            "place": {
+              "id": 3,
+              "num": 30,
+              "name": "Estúdio",
+              "cap": 5,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-12T11:45:21.516Z",
+            "updated_at": "2023-03-12T11:45:21.516Z",
+            "deleted_at": null
+          },
+          {
+            "id": 4663136,
+            "system": "app",
+            "date": "2023-03-07T08:00:00.000Z",
+            "type": 0,
+            "place": {
+              "id": 5,
+              "num": 33,
+              "name": "Sala 33",
+              "cap": 10,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-14T11:45:21.516Z",
+            "updated_at": "2023-03-14T11:45:21.516Z",
+            "deleted_at": null
+          },
+          {
+            "id": 1347517,
+            "system": "website",
+            "date": "2023-03-05T16:00:00.000Z",
+            "type": 0,
+            "place": {
+              "id": 6,
+              "num": 14,
+              "name": "Sala 14",
+              "cap": 12,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-14T14:45:21.516Z",
+            "updated_at": "2023-03-14T14:45:21.516Z",
+            "deleted_at": null
+          },
+          {
+            "id": 86048954,
+            "system": "website",
+            "date": "2023-03-09T19:00:00.000Z",
+            "type": 1,
+            "place": {
+              "id": 2,
+              "num": 25,
+              "name": "Paes Nunes",
+              "cap": 60,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-07T15:45:21.516Z",
+            "updated_at": "2023-03-07T15:45:21.516Z",
+            "deleted_at": null
+          },
+          {
+            "id": 53717866,
+            "system": "website",
+            "date": "2023-03-03T10:00:00.000Z",
+            "type": 0,
+            "place": {
+              "id": 3,
+              "num": 30,
+              "name": "Estúdio",
+              "cap": 5,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-13T18:45:21.516Z",
+            "updated_at": "2023-03-13T18:45:21.516Z",
+            "deleted_at": null
+          },
+          {
+            "id": 22560375,
+            "system": "website",
+            "date": "2023-03-04T13:00:00.000Z",
+            "type": 0,
+            "place": {
+              "id": 3,
+              "num": 30,
+              "name": "Estúdio",
+              "cap": 5,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-09T19:45:21.516Z",
+            "updated_at": "2023-03-09T19:45:21.516Z",
+            "deleted_at": null
+          },
+          {
+            "id": 28004758,
+            "system": "app",
+            "date": "2023-03-04T16:00:00.000Z",
+            "type": 1,
+            "place": {
+              "id": 3,
+              "num": 30,
+              "name": "Estúdio",
+              "cap": 5,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-06T11:45:21.516Z",
+            "updated_at": "2023-03-06T11:45:21.516Z",
+            "deleted_at": null
+          },
+          {
+            "id": 42639546,
+            "system": "website",
+            "date": "2023-03-07T11:00:00.000Z",
+            "type": 0,
+            "place": {
+              "id": 1,
+              "num": 13,
+              "name": "Sala 13",
+              "cap": 5,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-14T16:45:21.516Z",
+            "updated_at": "2023-03-14T16:45:21.516Z",
+            "deleted_at": null
+          },
+          {
+            "id": 34351728,
+            "system": "app",
+            "date": "2023-03-08T20:00:00.000Z",
+            "type": 1,
+            "place": {
+              "id": 4,
+              "num": 41,
+              "name": "Sala 41",
+              "cap": 30,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-07T11:45:21.516Z",
+            "updated_at": "2023-03-07T11:45:21.516Z",
+            "deleted_at": null
+          },
+          {
+            "id": 22915182,
+            "system": "website",
+            "date": "2023-03-09T22:00:00.000Z",
+            "type": 0,
+            "place": {
+              "id": 1,
+              "num": 13,
+              "name": "Sala 13",
+              "cap": 5,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-03T14:45:21.516Z",
+            "updated_at": "2023-03-03T14:45:21.516Z",
+            "deleted_at": null
+          },
+          {
+            "id": 73761838,
+            "system": "app",
+            "date": "2023-03-08T00:00:00.000Z",
+            "type": 1,
+            "place": {
+              "id": 5,
+              "num": 33,
+              "name": "Sala 33",
+              "cap": 10,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-09T10:45:21.516Z",
+            "updated_at": "2023-03-09T10:45:21.516Z",
+            "deleted_at": null
+          },
+          {
+            "id": 19358314,
+            "system": "app",
+            "date": "2023-03-03T08:00:00.000Z",
+            "type": 1,
+            "place": {
+              "id": 4,
+              "num": 41,
+              "name": "Sala 41",
+              "cap": 30,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-06T20:45:21.516Z",
+            "updated_at": "2023-03-06T20:45:21.516Z",
+            "deleted_at": null
+          },
+          {
+            "id": 32109575,
+            "system": "app",
+            "date": "2023-03-05T12:00:00.000Z",
+            "type": 0,
+            "place": {
+              "id": 6,
+              "num": 14,
+              "name": "Sala 14",
+              "cap": 12,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-07T23:45:21.516Z",
+            "updated_at": "2023-03-07T23:45:21.516Z",
+            "deleted_at": null
+          },
+          {
+            "id": 18395927,
+            "system": "app",
+            "date": "2023-03-05T20:00:00.000Z",
+            "type": 1,
+            "place": {
+              "id": 5,
+              "num": 33,
+              "name": "Sala 33",
+              "cap": 10,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-08T12:45:21.516Z",
+            "updated_at": "2023-03-08T12:45:21.516Z",
+            "deleted_at": null
+          },
+          {
+            "id": 229863,
+            "system": "app",
+            "date": "2023-03-09T18:00:00.000Z",
+            "type": 0,
+            "place": {
+              "id": 4,
+              "num": 41,
+              "name": "Sala 41",
+              "cap": 30,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-14T08:45:21.516Z",
+            "updated_at": "2023-03-14T08:45:21.516Z",
+            "deleted_at": null
+          },
+          {
+            "id": 73004173,
+            "system": "website",
+            "date": "2023-03-04T05:00:00.000Z",
+            "type": 0,
+            "place": {
+              "id": 2,
+              "num": 25,
+              "name": "Paes Nunes",
+              "cap": 60,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-10T03:45:21.516Z",
+            "updated_at": "2023-03-10T03:45:21.516Z",
+            "deleted_at": null
+          },
+          {
+            "id": 11620438,
+            "system": "website",
+            "date": "2023-03-06T06:00:00.000Z",
+            "type": 1,
+            "place": {
+              "id": 5,
+              "num": 33,
+              "name": "Sala 33",
+              "cap": 10,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-12T08:45:21.516Z",
+            "updated_at": "2023-03-12T08:45:21.516Z",
+            "deleted_at": null
+          },
+          {
+            "id": 24870123,
+            "system": "website",
+            "date": "2023-03-07T16:00:00.000Z",
+            "type": 1,
+            "place": {
+              "id": 2,
+              "num": 25,
+              "name": "Paes Nunes",
+              "cap": 60,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-11T16:45:21.516Z",
+            "updated_at": "2023-03-11T16:45:21.516Z",
+            "deleted_at": null
+          },
+          {
+            "id": 2461402,
+            "system": "website",
+            "date": "2023-03-09T20:00:00.000Z",
+            "type": 1,
+            "place": {
+              "id": 6,
+              "num": 14,
+              "name": "Sala 14",
+              "cap": 12,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-13T12:45:21.516Z",
+            "updated_at": "2023-03-13T12:45:21.516Z",
+            "deleted_at": null
+          },
+          {
+            "id": 27370026,
+            "system": "app",
+            "date": "2023-03-09T14:00:00.000Z",
+            "type": 0,
+            "place": {
+              "id": 4,
+              "num": 41,
+              "name": "Sala 41",
+              "cap": 30,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-11T12:45:21.516Z",
+            "updated_at": "2023-03-11T12:45:21.516Z",
+            "deleted_at": null
+          },
+          {
+            "id": 1189554,
+            "system": "website",
+            "date": "2023-03-07T19:00:00.000Z",
+            "type": 0,
+            "place": {
+              "id": 2,
+              "num": 25,
+              "name": "Paes Nunes",
+              "cap": 60,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-08T16:45:21.516Z",
+            "updated_at": "2023-03-08T16:45:21.516Z",
+            "deleted_at": null
+          },
+          {
+            "id": 5225413,
+            "system": "app",
+            "date": "2023-03-06T15:00:00.000Z",
+            "type": 1,
+            "place": {
+              "id": 2,
+              "num": 25,
+              "name": "Paes Nunes",
+              "cap": 60,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-17T15:45:21.516Z",
+            "updated_at": "2023-03-17T15:45:21.516Z",
+            "deleted_at": null
+          },
+          {
+            "id": 31326603,
+            "system": "app",
+            "date": "2023-03-05T10:00:00.000Z",
+            "type": 1,
+            "place": {
+              "id": 2,
+              "num": 25,
+              "name": "Paes Nunes",
+              "cap": 60,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-16T17:45:21.516Z",
+            "updated_at": "2023-03-16T17:45:21.516Z",
+            "deleted_at": null
+          },
+          {
+            "id": 57785973,
+            "system": "website",
+            "date": "2023-03-08T07:00:00.000Z",
+            "type": 0,
+            "place": {
+              "id": 4,
+              "num": 41,
+              "name": "Sala 41",
+              "cap": 30,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-12T04:45:21.516Z",
+            "updated_at": "2023-03-12T04:45:21.516Z",
+            "deleted_at": null
+          },
+          {
+            "id": 47779170,
+            "system": "app",
+            "date": "2023-03-07T06:00:00.000Z",
+            "type": 1,
+            "place": {
+              "id": 6,
+              "num": 14,
+              "name": "Sala 14",
+              "cap": 12,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-15T21:45:21.516Z",
+            "updated_at": "2023-03-15T21:45:21.516Z",
+            "deleted_at": null
+          },
+          {
+            "id": 20317646,
+            "system": "website",
+            "date": "2023-03-06T20:00:00.000Z",
+            "type": 0,
+            "place": {
+              "id": 3,
+              "num": 30,
+              "name": "Estúdio",
+              "cap": 5,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-05T16:45:21.516Z",
+            "updated_at": "2023-03-05T16:45:21.516Z",
+            "deleted_at": null
+          },
+          {
+            "id": 79437121,
+            "system": "website",
+            "date": "2023-03-08T23:00:00.000Z",
+            "type": 0,
+            "place": {
+              "id": 6,
+              "num": 14,
+              "name": "Sala 14",
+              "cap": 12,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-14T06:45:21.516Z",
+            "updated_at": "2023-03-14T06:45:21.516Z",
+            "deleted_at": null
+          },
+          {
+            "id": 18180412,
+            "system": "app",
+            "date": "2023-03-09T17:00:00.000Z",
+            "type": 1,
+            "place": {
+              "id": 4,
+              "num": 41,
+              "name": "Sala 41",
+              "cap": 30,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-14T06:45:21.516Z",
+            "updated_at": "2023-03-14T06:45:21.516Z",
+            "deleted_at": null
+          },
+          {
+            "id": 12127512,
+            "system": "website",
+            "date": "2023-03-09T10:00:00.000Z",
+            "type": 0,
+            "place": {
+              "id": 1,
+              "num": 13,
+              "name": "Sala 13",
+              "cap": 5,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-12T09:45:21.516Z",
+            "updated_at": "2023-03-12T09:45:21.516Z",
+            "deleted_at": null
+          },
+          {
+            "id": 83890795,
+            "system": "website",
+            "date": "2023-03-08T17:00:00.000Z",
+            "type": 1,
+            "place": {
+              "id": 6,
+              "num": 14,
+              "name": "Sala 14",
+              "cap": 12,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-04T23:45:21.516Z",
+            "updated_at": "2023-03-04T23:45:21.516Z",
+            "deleted_at": null
+          },
+          {
+            "id": 91701321,
+            "system": "app",
+            "date": "2023-03-07T10:00:00.000Z",
+            "type": 1,
+            "place": {
+              "id": 6,
+              "num": 14,
+              "name": "Sala 14",
+              "cap": 12,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-06T20:45:21.516Z",
+            "updated_at": "2023-03-06T20:45:21.516Z",
+            "deleted_at": null
+          },
+          {
+            "id": 43897225,
+            "system": "app",
+            "date": "2023-03-04T08:00:00.000Z",
+            "type": 1,
+            "place": {
+              "id": 1,
+              "num": 13,
+              "name": "Sala 13",
+              "cap": 5,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-07T19:45:21.516Z",
+            "updated_at": "2023-03-07T19:45:21.516Z",
+            "deleted_at": null
+          }
+        ],
+        "enrollment_year": 2019,
+        "created_at": "2019-03-03T14:45:21.519Z",
+        "updated_at": "2019-03-03T14:45:21.519Z",
+        "deleted_at": null
+      },
+      {
+        "id": 19743,
+        "course_taker_id": "494277",
+        "name": "Kathleen Mann",
+        "age": 25,
+        "address": {
+          "state": "New York",
+          "city": "Stantonfurt",
+          "zip_code": "65218-4186",
+          "number": "14568"
+        },
+        "phone_number": "863.969.8480 x439",
+        "birth_date": "3/03/1994",
+        "rg": "52b322C562-00",
+        "courses": [
+          {
+            "id": 55,
+            "name": "Music",
+            "catalogue": 70,
+            "specialties": [
+              {
+                "id": 3,
+                "name": "Canto Erudito"
+              }
+            ],
+            "created_at": "1995-02-11T20:51:00.220Z",
+            "updated_at": "1995-02-11T20:51:00.220Z",
+            "deleted_at": null
+          }
+        ],
+        "allocs": [
+          {
+            "id": 89985195,
+            "system": "app",
+            "date": "2023-03-06T12:00:00.000Z",
+            "type": 0,
+            "place": {
+              "id": 6,
+              "num": 14,
+              "name": "Sala 14",
+              "cap": 12,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-13T11:45:21.519Z",
+            "updated_at": "2023-03-13T11:45:21.519Z",
+            "deleted_at": null
+          },
+          {
+            "id": 46590190,
+            "system": "app",
+            "date": "2023-03-03T12:00:00.000Z",
+            "type": 0,
+            "place": {
+              "id": 4,
+              "num": 41,
+              "name": "Sala 41",
+              "cap": 30,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-05T18:45:21.519Z",
+            "updated_at": "2023-03-05T18:45:21.519Z",
+            "deleted_at": null
+          },
+          {
+            "id": 64985785,
+            "system": "website",
+            "date": "2023-03-04T14:00:00.000Z",
+            "type": 0,
+            "place": {
+              "id": 5,
+              "num": 33,
+              "name": "Sala 33",
+              "cap": 10,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-05T11:45:21.519Z",
+            "updated_at": "2023-03-05T11:45:21.519Z",
+            "deleted_at": null
+          },
+          {
+            "id": 41795303,
+            "system": "website",
+            "date": "2023-03-08T22:00:00.000Z",
+            "type": 0,
+            "place": {
+              "id": 1,
+              "num": 13,
+              "name": "Sala 13",
+              "cap": 5,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-13T19:45:21.519Z",
+            "updated_at": "2023-03-13T19:45:21.519Z",
+            "deleted_at": null
+          },
+          {
+            "id": 51891436,
+            "system": "app",
+            "date": "2023-03-05T09:00:00.000Z",
+            "type": 0,
+            "place": {
+              "id": 2,
+              "num": 25,
+              "name": "Paes Nunes",
+              "cap": 60,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-14T22:45:21.519Z",
+            "updated_at": "2023-03-14T22:45:21.519Z",
+            "deleted_at": null
+          },
+          {
+            "id": 13481964,
+            "system": "app",
+            "date": "2023-03-09T04:00:00.000Z",
+            "type": 1,
+            "place": {
+              "id": 3,
+              "num": 30,
+              "name": "Estúdio",
+              "cap": 5,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-17T11:45:21.519Z",
+            "updated_at": "2023-03-17T11:45:21.519Z",
+            "deleted_at": null
+          },
+          {
+            "id": 79545565,
+            "system": "app",
+            "date": "2023-03-09T01:00:00.000Z",
+            "type": 0,
+            "place": {
+              "id": 5,
+              "num": 33,
+              "name": "Sala 33",
+              "cap": 10,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-12T21:45:21.519Z",
+            "updated_at": "2023-03-12T21:45:21.519Z",
+            "deleted_at": null
+          },
+          {
+            "id": 44592102,
+            "system": "app",
+            "date": "2023-03-06T21:00:00.000Z",
+            "type": 0,
+            "place": {
+              "id": 2,
+              "num": 25,
+              "name": "Paes Nunes",
+              "cap": 60,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-09T22:45:21.519Z",
+            "updated_at": "2023-03-09T22:45:21.519Z",
+            "deleted_at": null
+          },
+          {
+            "id": 29124702,
+            "system": "app",
+            "date": "2023-03-06T11:00:00.000Z",
+            "type": 0,
+            "place": {
+              "id": 2,
+              "num": 25,
+              "name": "Paes Nunes",
+              "cap": 60,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-06T19:45:21.519Z",
+            "updated_at": "2023-03-06T19:45:21.519Z",
+            "deleted_at": null
+          },
+          {
+            "id": 88828200,
+            "system": "app",
+            "date": "2023-03-06T20:00:00.000Z",
+            "type": 0,
+            "place": {
+              "id": 5,
+              "num": 33,
+              "name": "Sala 33",
+              "cap": 10,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-17T17:45:21.519Z",
+            "updated_at": "2023-03-17T17:45:21.519Z",
+            "deleted_at": null
+          },
+          {
+            "id": 58304189,
+            "system": "app",
+            "date": "2023-03-04T13:00:00.000Z",
+            "type": 1,
+            "place": {
+              "id": 5,
+              "num": 33,
+              "name": "Sala 33",
+              "cap": 10,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-10T01:45:21.519Z",
+            "updated_at": "2023-03-10T01:45:21.519Z",
+            "deleted_at": null
+          },
+          {
+            "id": 76351270,
+            "system": "website",
+            "date": "2023-03-07T08:00:00.000Z",
+            "type": 1,
+            "place": {
+              "id": 2,
+              "num": 25,
+              "name": "Paes Nunes",
+              "cap": 60,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-17T20:45:21.519Z",
+            "updated_at": "2023-03-17T20:45:21.519Z",
+            "deleted_at": null
+          },
+          {
+            "id": 79371527,
+            "system": "website",
+            "date": "2023-03-08T00:00:00.000Z",
+            "type": 1,
+            "place": {
+              "id": 4,
+              "num": 41,
+              "name": "Sala 41",
+              "cap": 30,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-07T23:45:21.519Z",
+            "updated_at": "2023-03-07T23:45:21.519Z",
+            "deleted_at": null
+          }
+        ],
+        "enrollment_year": 2014,
+        "created_at": "2014-03-03T14:45:21.519Z",
+        "updated_at": "2014-03-03T14:45:21.519Z",
+        "deleted_at": null
+      },
+      {
+        "id": 77988,
+        "course_taker_id": "454358",
+        "name": "Philip Bednar",
+        "age": 20,
+        "address": {
+          "state": "Wisconsin",
+          "city": "New Lavonne",
+          "zip_code": "38312",
+          "number": "90372"
+        },
+        "phone_number": "278-724-4692 x865",
+        "birth_date": "3/03/1998",
+        "rg": "36z7821754-03",
+        "courses": [
+          {
+            "id": 55,
+            "name": "Music",
+            "catalogue": 70,
+            "specialties": [
+              {
+                "id": 5,
+                "name": "Piano Erudito"
+              }
+            ],
+            "created_at": "1995-02-11T20:51:00.220Z",
+            "updated_at": "1995-02-11T20:51:00.220Z",
+            "deleted_at": null
+          }
+        ],
+        "allocs": [
+          {
+            "id": 20407401,
+            "system": "website",
+            "date": "2023-03-07T07:00:00.000Z",
+            "type": 0,
+            "place": {
+              "id": 4,
+              "num": 41,
+              "name": "Sala 41",
+              "cap": 30,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-10T04:45:21.519Z",
+            "updated_at": "2023-03-10T04:45:21.519Z",
+            "deleted_at": null
+          },
+          {
+            "id": 26030845,
+            "system": "website",
+            "date": "2023-03-05T03:00:00.000Z",
+            "type": 0,
+            "place": {
+              "id": 3,
+              "num": 30,
+              "name": "Estúdio",
+              "cap": 5,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-10T14:45:21.519Z",
+            "updated_at": "2023-03-10T14:45:21.519Z",
+            "deleted_at": null
+          },
+          {
+            "id": 40505721,
+            "system": "website",
+            "date": "2023-03-08T00:00:00.000Z",
+            "type": 1,
+            "place": {
+              "id": 2,
+              "num": 25,
+              "name": "Paes Nunes",
+              "cap": 60,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-15T10:45:21.519Z",
+            "updated_at": "2023-03-15T10:45:21.519Z",
+            "deleted_at": null
+          },
+          {
+            "id": 25491052,
+            "system": "website",
+            "date": "2023-03-08T08:00:00.000Z",
+            "type": 0,
+            "place": {
+              "id": 2,
+              "num": 25,
+              "name": "Paes Nunes",
+              "cap": 60,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-12T22:45:21.519Z",
+            "updated_at": "2023-03-12T22:45:21.519Z",
+            "deleted_at": null
+          },
+          {
+            "id": 81284561,
+            "system": "website",
+            "date": "2023-03-09T18:00:00.000Z",
+            "type": 0,
+            "place": {
+              "id": 2,
+              "num": 25,
+              "name": "Paes Nunes",
+              "cap": 60,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-03T16:45:21.519Z",
+            "updated_at": "2023-03-03T16:45:21.519Z",
+            "deleted_at": null
+          },
+          {
+            "id": 59676471,
+            "system": "app",
+            "date": "2023-03-08T05:00:00.000Z",
+            "type": 1,
+            "place": {
+              "id": 6,
+              "num": 14,
+              "name": "Sala 14",
+              "cap": 12,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-04T18:45:21.519Z",
+            "updated_at": "2023-03-04T18:45:21.519Z",
+            "deleted_at": null
+          },
+          {
+            "id": 5675736,
+            "system": "app",
+            "date": "2023-03-07T11:00:00.000Z",
+            "type": 0,
+            "place": {
+              "id": 6,
+              "num": 14,
+              "name": "Sala 14",
+              "cap": 12,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-13T00:45:21.519Z",
+            "updated_at": "2023-03-13T00:45:21.519Z",
+            "deleted_at": null
+          },
+          {
+            "id": 39309861,
+            "system": "website",
+            "date": "2023-03-03T16:00:00.000Z",
+            "type": 0,
+            "place": {
+              "id": 5,
+              "num": 33,
+              "name": "Sala 33",
+              "cap": 10,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-09T12:45:21.519Z",
+            "updated_at": "2023-03-09T12:45:21.519Z",
+            "deleted_at": null
+          },
+          {
+            "id": 25386185,
+            "system": "app",
+            "date": "2023-03-08T01:00:00.000Z",
+            "type": 0,
+            "place": {
+              "id": 3,
+              "num": 30,
+              "name": "Estúdio",
+              "cap": 5,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-11T16:45:21.519Z",
+            "updated_at": "2023-03-11T16:45:21.519Z",
+            "deleted_at": null
+          },
+          {
+            "id": 27883478,
+            "system": "app",
+            "date": "2023-03-06T13:00:00.000Z",
+            "type": 1,
+            "place": {
+              "id": 6,
+              "num": 14,
+              "name": "Sala 14",
+              "cap": 12,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-12T19:45:21.519Z",
+            "updated_at": "2023-03-12T19:45:21.519Z",
+            "deleted_at": null
+          },
+          {
+            "id": 82569587,
+            "system": "app",
+            "date": "2023-03-08T19:00:00.000Z",
+            "type": 0,
+            "place": {
+              "id": 3,
+              "num": 30,
+              "name": "Estúdio",
+              "cap": 5,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-18T00:45:21.519Z",
+            "updated_at": "2023-03-18T00:45:21.519Z",
+            "deleted_at": null
+          },
+          {
+            "id": 60543259,
+            "system": "website",
+            "date": "2023-03-08T17:00:00.000Z",
+            "type": 0,
+            "place": {
+              "id": 2,
+              "num": 25,
+              "name": "Paes Nunes",
+              "cap": 60,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-15T17:45:21.519Z",
+            "updated_at": "2023-03-15T17:45:21.519Z",
+            "deleted_at": null
+          },
+          {
+            "id": 45802486,
+            "system": "website",
+            "date": "2023-03-07T05:00:00.000Z",
+            "type": 1,
+            "place": {
+              "id": 3,
+              "num": 30,
+              "name": "Estúdio",
+              "cap": 5,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-05T04:45:21.519Z",
+            "updated_at": "2023-03-05T04:45:21.519Z",
+            "deleted_at": null
+          },
+          {
+            "id": 86639503,
+            "system": "website",
+            "date": "2023-03-09T20:00:00.000Z",
+            "type": 1,
+            "place": {
+              "id": 1,
+              "num": 13,
+              "name": "Sala 13",
+              "cap": 5,
+              "created_at": "1996-07-11T20:51:00.220Z",
+              "updated_at": "1996-07-11T20:51:00.220Z",
+              "deleted_at": null
+            },
+            "created_at": "2023-03-09T17:45:21.519Z",
+            "updated_at": "2023-03-09T17:45:21.519Z",
+            "deleted_at": null
+          }
+        ],
+        "enrollment_year": 2013,
+        "created_at": "2013-03-03T14:45:21.520Z",
+        "updated_at": "2013-03-03T14:45:21.520Z",
+        "deleted_at": null
+      }
+    ]
+  }
+}

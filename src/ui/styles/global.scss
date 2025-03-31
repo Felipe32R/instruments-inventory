@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Helvetica;
+  list-style: none;
+  position: relative;
+}
+
+html {
+  height: 100vh;
+}
+
+body {
+  height: 100%;
+}
+
+:root {
+  --primaryColor: #86bbff;
+}

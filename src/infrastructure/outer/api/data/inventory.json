@@ -1,0 +1,982 @@
+{
+  "status": 200,
+  "statusText": "Ok",
+  "redirected": false,
+  "headers": {
+    "Content-Type": "application/json"
+  },
+  "data": [
+    {
+      "id": 14532,
+      "sector": "A",
+      "items": [
+        {
+          "id": 53055968,
+          "type": "microphone",
+          "brand": "Sennheiser",
+          "model": "e981",
+          "fragility": 2,
+          "last_maintenance": {
+            "day": 8,
+            "month": 1,
+            "year": 2023
+          },
+          "created_at": "1996-07-11T20:51:00.220Z",
+          "updated_at": "1996-07-11T20:51:00.220Z",
+          "deleted_at": null
+        },
+        {
+          "id": 46703589,
+          "type": "microphone",
+          "brand": "Shure",
+          "model": "SM 57",
+          "fragility": 2,
+          "last_maintenance": {
+            "day": 16,
+            "month": 10,
+            "year": 2022
+          },
+          "created_at": "1996-07-11T20:51:00.220Z",
+          "updated_at": "1996-07-11T20:51:00.220Z",
+          "deleted_at": null
+        },
+        {
+          "id": 56583665,
+          "type": "microphone",
+          "brand": "Shure",
+          "model": "SM 58",
+          "fragility": 2,
+          "last_maintenance": {
+            "day": 1,
+            "month": 2,
+            "year": 2023
+          },
+          "created_at": "1996-07-11T20:51:00.220Z",
+          "updated_at": "1996-07-11T20:51:00.220Z",
+          "deleted_at": null
+        },
+        {
+          "id": 18215411,
+          "type": "speaker",
+          "brand": "QSC",
+          "model": "K12",
+          "fragility": 3,
+          "last_maintenance": {
+            "day": 20,
+            "month": 10,
+            "year": 2022
+          },
+          "created_at": "1996-07-11T20:51:00.220Z",
+          "updated_at": "1996-07-11T20:51:00.220Z",
+          "deleted_at": null
+        },
+        {
+          "id": 84928724,
+          "type": "microphone",
+          "brand": "Sennheiser",
+          "model": "MK4",
+          "fragility": 4,
+          "last_maintenance": {
+            "day": 17,
+            "month": 11,
+            "year": 2022
+          },
+          "created_at": "1996-07-11T20:51:00.220Z",
+          "updated_at": "1996-07-11T20:51:00.220Z",
+          "deleted_at": null
+        },
+        {
+          "id": 97600156,
+          "type": "microphone",
+          "brand": "Shure",
+          "model": "SM 57",
+          "fragility": 2,
+          "last_maintenance": {
+            "day": 1,
+            "month": 0,
+            "year": 2023
+          },
+          "created_at": "1996-07-11T20:51:00.220Z",
+          "updated_at": "1996-07-11T20:51:00.220Z",
+          "deleted_at": null
+        },
+        {
+          "id": 20064135,
+          "type": "mixer",
+          "brand": "Behringer",
+          "model": "X18R",
+          "fragility": 2,
+          "last_maintenance": {
+            "day": 28,
+            "month": 0,
+            "year": 2023
+          },
+          "created_at": "1996-07-11T20:51:00.220Z",
+          "updated_at": "1996-07-11T20:51:00.220Z",
+          "deleted_at": null
+        },
+        {
+          "id": 70967820,
+          "type": "microphone",
+          "brand": "Shure",
+          "model": "SM 58",
+          "fragility": 2,
+          "last_maintenance": {
+            "day": 18,
+            "month": 0,
+            "year": 2023
+          },
+          "created_at": "1996-07-11T20:51:00.220Z",
+          "updated_at": "1996-07-11T20:51:00.220Z",
+          "deleted_at": null
+        },
+        {
+          "id": 97638306,
+          "type": "di",
+          "brand": "Behringer",
+          "model": "UltraDI DI20",
+          "fragility": 1,
+          "last_maintenance": {
+            "day": 26,
+            "month": 1,
+            "year": 2023
+          },
+          "created_at": "1996-07-11T20:51:00.220Z",
+          "updated_at": "1996-07-11T20:51:00.220Z",
+          "deleted_at": null
+        },
+        {
+          "id": 7524388,
+          "type": "speaker",
+          "brand": "QSC",
+          "model": "K12",
+          "fragility": 3,
+          "last_maintenance": {
+            "day": 7,
+            "month": 11,
+            "year": 2022
+          },
+          "created_at": "1996-07-11T20:51:00.220Z",
+          "updated_at": "1996-07-11T20:51:00.220Z",
+          "deleted_at": null
+        },
+        {
+          "id": 42352841,
+          "type": "speaker",
+          "brand": "QSC",
+          "model": "K12",
+          "fragility": 3,
+          "last_maintenance": {
+            "day": 31,
+            "month": 11,
+            "year": 2022
+          },
+          "created_at": "1996-07-11T20:51:00.220Z",
+          "updated_at": "1996-07-11T20:51:00.220Z",
+          "deleted_at": null
+        },
+        {
+          "id": 11133395,
+          "type": "speaker",
+          "brand": "QSC",
+          "model": "K12",
+          "fragility": 3,
+          "last_maintenance": {
+            "day": 13,
+            "month": 1,
+            "year": 2023
+          },
+          "created_at": "1996-07-11T20:51:00.220Z",
+          "updated_at": "1996-07-11T20:51:00.220Z",
+          "deleted_at": null
+        },
+        {
+          "id": 13503496,
+          "type": "microphone",
+          "brand": "Shure",
+          "model": "SM7B",
+          "fragility": 4,
+          "last_maintenance": {
+            "day": 3,
+            "month": 1,
+            "year": 2023
+          },
+          "created_at": "1996-07-11T20:51:00.220Z",
+          "updated_at": "1996-07-11T20:51:00.220Z",
+          "deleted_at": null
+        },
+        {
+          "id": 53888774,
+          "type": "support",
+          "brand": "K&M",
+          "model": "25400-500-55",
+          "fragility": 1,
+          "last_maintenance": {
+            "day": 2,
+            "month": 2,
+            "year": 2023
+          },
+          "created_at": "1996-07-11T20:51:00.220Z",
+          "updated_at": "1996-07-11T20:51:00.220Z",
+          "deleted_at": null
+        },
+        {
+          "id": 86523656,
+          "type": "microphone",
+          "brand": "Sennheiser",
+          "model": "e981",
+          "fragility": 2,
+          "last_maintenance": {
+            "day": 13,
+            "month": 0,
+            "year": 2023
+          },
+          "created_at": "1996-07-11T20:51:00.220Z",
+          "updated_at": "1996-07-11T20:51:00.220Z",
+          "deleted_at": null
+        },
+        {
+          "id": 72453454,
+          "type": "cable",
+          "brand": "Techniforte",
+          "model": "True Voice",
+          "fragility": 1,
+          "last_maintenance": {
+            "day": 22,
+            "month": 1,
+            "year": 2023
+          },
+          "created_at": "1996-07-11T20:51:00.220Z",
+          "updated_at": "1996-07-11T20:51:00.220Z",
+          "deleted_at": null
+        },
+        {
+          "id": 23119441,
+          "type": "microphone",
+          "brand": "Sennheiser",
+          "model": "MK4",
+          "fragility": 4,
+          "last_maintenance": {
+            "day": 12,
+            "month": 11,
+            "year": 2022
+          },
+          "created_at": "1996-07-11T20:51:00.220Z",
+          "updated_at": "1996-07-11T20:51:00.220Z",
+          "deleted_at": null
+        },
+        {
+          "id": 85328818,
+          "type": "microphone",
+          "brand": "Shure",
+          "model": "SM 57",
+          "fragility": 2,
+          "last_maintenance": {
+            "day": 1,
+            "month": 1,
+            "year": 2023
+          },
+          "created_at": "1996-07-11T20:51:00.220Z",
+          "updated_at": "1996-07-11T20:51:00.220Z",
+          "deleted_at": null
+        },
+        {
+          "id": 92086504,
+          "type": "microphone",
+          "brand": "Shure",
+          "model": "Beta 58A",
+          "fragility": 2,
+          "last_maintenance": {
+            "day": 16,
+            "month": 11,
+            "year": 2022
+          },
+          "created_at": "1996-07-11T20:51:00.220Z",
+          "updated_at": "1996-07-11T20:51:00.220Z",
+          "deleted_at": null
+        },
+        {
+          "id": 15126593,
+          "type": "microphone",
+          "brand": "Royer",
+          "model": "R-121",
+          "fragility": 5,
+          "last_maintenance": {
+            "day": 18,
+            "month": 0,
+            "year": 2023
+          },
+          "created_at": "1996-07-11T20:51:00.220Z",
+          "updated_at": "1996-07-11T20:51:00.220Z",
+          "deleted_at": null
+        },
+        {
+          "id": 91424363,
+          "type": "microphone",
+          "brand": "Shure",
+          "model": "SM7B",
+          "fragility": 4,
+          "last_maintenance": {
+            "day": 5,
+            "month": 1,
+            "year": 2023
+          },
+          "created_at": "1996-07-11T20:51:00.220Z",
+          "updated_at": "1996-07-11T20:51:00.220Z",
+          "deleted_at": null
+        },
+        {
+          "id": 68823723,
+          "type": "microphone",
+          "brand": "Shure",
+          "model": "Beta 58A",
+          "fragility": 2,
+          "last_maintenance": {
+            "day": 17,
+            "month": 1,
+            "year": 2023
+          },
+          "created_at": "1996-07-11T20:51:00.220Z",
+          "updated_at": "1996-07-11T20:51:00.220Z",
+          "deleted_at": null
+        },
+        {
+          "id": 77435345,
+          "type": "microphone",
+          "brand": "Shure",
+          "model": "SM 58",
+          "fragility": 2,
+          "last_maintenance": {
+            "day": 31,
+            "month": 0,
+            "year": 2023
+          },
+          "created_at": "1996-07-11T20:51:00.220Z",
+          "updated_at": "1996-07-11T20:51:00.220Z",
+          "deleted_at": null
+        },
+        {
+          "id": 20073182,
+          "type": "microphone",
+          "brand": "Shure",
+          "model": "SM7B",
+          "fragility": 4,
+          "last_maintenance": {
+            "day": 27,
+            "month": 1,
+            "year": 2023
+          },
+          "created_at": "1996-07-11T20:51:00.220Z",
+          "updated_at": "1996-07-11T20:51:00.220Z",
+          "deleted_at": null
+        },
+        {
+          "id": 32649134,
+          "type": "microphone",
+          "brand": "Audio Technica",
+          "model": "Mk3",
+          "fragility": 2,
+          "last_maintenance": {
+            "day": 21,
+            "month": 1,
+            "year": 2023
+          },
+          "created_at": "1996-07-11T20:51:00.220Z",
+          "updated_at": "1996-07-11T20:51:00.220Z",
+          "deleted_at": null
+        },
+        {
+          "id": 71530179,
+          "type": "mixer",
+          "brand": "Behringer",
+          "model": "X18",
+          "fragility": 3,
+          "last_maintenance": {
+            "day": 28,
+            "month": 1,
+            "year": 2023
+          },
+          "created_at": "1996-07-11T20:51:00.220Z",
+          "updated_at": "1996-07-11T20:51:00.220Z",
+          "deleted_at": null
+        },
+        {
+          "id": 23997430,
+          "type": "microphone",
+          "brand": "Sennheiser",
+          "model": "e981",
+          "fragility": 2,
+          "last_maintenance": {
+            "day": 25,
+            "month": 0,
+            "year": 2023
+          },
+          "created_at": "1996-07-11T20:51:00.220Z",
+          "updated_at": "1996-07-11T20:51:00.220Z",
+          "deleted_at": null
+        },
+        {
+          "id": 1307395,
+          "type": "speaker",
+          "brand": "QSC",
+          "model": "K12",
+          "fragility": 3,
+          "last_maintenance": {
+            "day": 9,
+            "month": 0,
+            "year": 2023
+          },
+          "created_at": "1996-07-11T20:51:00.220Z",
+          "updated_at": "1996-07-11T20:51:00.220Z",
+          "deleted_at": null
+        },
+        {
+          "id": 39648923,
+          "type": "microphone",
+          "brand": "Shure",
+          "model": "Beta 58A",
+          "fragility": 2,
+          "last_maintenance": {
+            "day": 21,
+            "month": 10,
+            "year": 2022
+          },
+          "created_at": "1996-07-11T20:51:00.220Z",
+          "updated_at": "1996-07-11T20:51:00.220Z",
+          "deleted_at": null
+        }
+      ],
+      "created_at": "1995-02-11T20:51:00.220Z",
+      "updated_at": "1995-02-11T20:51:00.220Z",
+      "deleted_at": null
+    },
+    {
+      "id": 4123,
+      "items": [
+        {
+          "id": 91442798,
+          "type": "cable",
+          "brand": "Techniforte",
+          "model": "True Voice",
+          "fragility": 1,
+          "last_maintenance": {
+            "day": 9,
+            "month": 10,
+            "year": 2022
+          },
+          "created_at": "1996-07-11T20:51:00.220Z",
+          "updated_at": "1996-07-11T20:51:00.220Z",
+          "deleted_at": null
+        },
+        {
+          "id": 12759083,
+          "type": "support",
+          "brand": "K&M",
+          "model": "25400-500-55",
+          "fragility": 1,
+          "last_maintenance": {
+            "day": 14,
+            "month": 11,
+            "year": 2022
+          },
+          "created_at": "1996-07-11T20:51:00.220Z",
+          "updated_at": "1996-07-11T20:51:00.220Z",
+          "deleted_at": null
+        },
+        {
+          "id": 15647843,
+          "type": "cable",
+          "brand": "Techniforte",
+          "model": "True Voice",
+          "fragility": 1,
+          "last_maintenance": {
+            "day": 23,
+            "month": 1,
+            "year": 2023
+          },
+          "created_at": "1996-07-11T20:51:00.220Z",
+          "updated_at": "1996-07-11T20:51:00.220Z",
+          "deleted_at": null
+        },
+        {
+          "id": 23572836,
+          "type": "cable",
+          "brand": "Techniforte",
+          "model": "True Voice",
+          "fragility": 1,
+          "last_maintenance": {
+            "day": 2,
+            "month": 2,
+            "year": 2023
+          },
+          "created_at": "1996-07-11T20:51:00.220Z",
+          "updated_at": "1996-07-11T20:51:00.220Z",
+          "deleted_at": null
+        },
+        {
+          "id": 69219832,
+          "type": "support",
+          "brand": "K&M",
+          "model": "25400-500-55",
+          "fragility": 1,
+          "last_maintenance": {
+            "day": 12,
+            "month": 10,
+            "year": 2022
+          },
+          "created_at": "1996-07-11T20:51:00.220Z",
+          "updated_at": "1996-07-11T20:51:00.220Z",
+          "deleted_at": null
+        },
+        {
+          "id": 35427688,
+          "type": "cable",
+          "brand": "Techniforte",
+          "model": "True Voice",
+          "fragility": 1,
+          "last_maintenance": {
+            "day": 20,
+            "month": 0,
+            "year": 2023
+          },
+          "created_at": "1996-07-11T20:51:00.220Z",
+          "updated_at": "1996-07-11T20:51:00.220Z",
+          "deleted_at": null
+        },
+        {
+          "id": 94232585,
+          "type": "support",
+          "brand": "K&M",
+          "model": "25400-500-55",
+          "fragility": 1,
+          "last_maintenance": {
+            "day": 31,
+            "month": 0,
+            "year": 2023
+          },
+          "created_at": "1996-07-11T20:51:00.220Z",
+          "updated_at": "1996-07-11T20:51:00.220Z",
+          "deleted_at": null
+        },
+        {
+          "id": 62056388,
+          "type": "support",
+          "brand": "K&M",
+          "model": "25400-500-55",
+          "fragility": 1,
+          "last_maintenance": {
+            "day": 19,
+            "month": 0,
+            "year": 2023
+          },
+          "created_at": "1996-07-11T20:51:00.220Z",
+          "updated_at": "1996-07-11T20:51:00.220Z",
+          "deleted_at": null
+        },
+        {
+          "id": 43866913,
+          "type": "cable",
+          "brand": "Techniforte",
+          "model": "True Voice",
+          "fragility": 1,
+          "last_maintenance": {
+            "day": 11,
+            "month": 10,
+            "year": 2022
+          },
+          "created_at": "1996-07-11T20:51:00.220Z",
+          "updated_at": "1996-07-11T20:51:00.220Z",
+          "deleted_at": null
+        },
+        {
+          "id": 37324548,
+          "type": "support",
+          "brand": "K&M",
+          "model": "25400-500-55",
+          "fragility": 1,
+          "last_maintenance": {
+            "day": 19,
+            "month": 11,
+            "year": 2022
+          },
+          "created_at": "1996-07-11T20:51:00.220Z",
+          "updated_at": "1996-07-11T20:51:00.220Z",
+          "deleted_at": null
+        },
+        {
+          "id": 25895617,
+          "type": "support",
+          "brand": "K&M",
+          "model": "25400-500-55",
+          "fragility": 1,
+          "last_maintenance": {
+            "day": 30,
+            "month": 10,
+            "year": 2022
+          },
+          "created_at": "1996-07-11T20:51:00.220Z",
+          "updated_at": "1996-07-11T20:51:00.220Z",
+          "deleted_at": null
+        },
+        {
+          "id": 32651531,
+          "type": "cable",
+          "brand": "Techniforte",
+          "model": "True Voice",
+          "fragility": 1,
+          "last_maintenance": {
+            "day": 27,
+            "month": 10,
+            "year": 2022
+          },
+          "created_at": "1996-07-11T20:51:00.220Z",
+          "updated_at": "1996-07-11T20:51:00.220Z",
+          "deleted_at": null
+        },
+        {
+          "id": 85673876,
+          "type": "cable",
+          "brand": "Techniforte",
+          "model": "True Voice",
+          "fragility": 1,
+          "last_maintenance": {
+            "day": 25,
+            "month": 0,
+            "year": 2023
+          },
+          "created_at": "1996-07-11T20:51:00.220Z",
+          "updated_at": "1996-07-11T20:51:00.220Z",
+          "deleted_at": null
+        },
+        {
+          "id": 34237598,
+          "type": "cable",
+          "brand": "Techniforte",
+          "model": "True Voice",
+          "fragility": 1,
+          "last_maintenance": {
+            "day": 26,
+            "month": 0,
+            "year": 2023
+          },
+          "created_at": "1996-07-11T20:51:00.220Z",
+          "updated_at": "1996-07-11T20:51:00.220Z",
+          "deleted_at": null
+        },
+        {
+          "id": 31508927,
+          "type": "cable",
+          "brand": "Techniforte",
+          "model": "True Voice",
+          "fragility": 1,
+          "last_maintenance": {
+            "day": 10,
+            "month": 0,
+            "year": 2023
+          },
+          "created_at": "1996-07-11T20:51:00.220Z",
+          "updated_at": "1996-07-11T20:51:00.220Z",
+          "deleted_at": null
+        },
+        {
+          "id": 41525422,
+          "type": "support",
+          "brand": "K&M",
+          "model": "25400-500-55",
+          "fragility": 1,
+          "last_maintenance": {
+            "day": 17,
+            "month": 10,
+            "year": 2022
+          },
+          "created_at": "1996-07-11T20:51:00.220Z",
+          "updated_at": "1996-07-11T20:51:00.220Z",
+          "deleted_at": null
+        },
+        {
+          "id": 93713612,
+          "type": "cable",
+          "brand": "Techniforte",
+          "model": "True Voice",
+          "fragility": 1,
+          "last_maintenance": {
+            "day": 17,
+            "month": 11,
+            "year": 2022
+          },
+          "created_at": "1996-07-11T20:51:00.220Z",
+          "updated_at": "1996-07-11T20:51:00.220Z",
+          "deleted_at": null
+        },
+        {
+          "id": 4575969,
+          "type": "cable",
+          "brand": "Techniforte",
+          "model": "True Voice",
+          "fragility": 1,
+          "last_maintenance": {
+            "day": 13,
+            "month": 10,
+            "year": 2022
+          },
+          "created_at": "1996-07-11T20:51:00.220Z",
+          "updated_at": "1996-07-11T20:51:00.220Z",
+          "deleted_at": null
+        },
+        {
+          "id": 19191549,
+          "type": "support",
+          "brand": "K&M",
+          "model": "25400-500-55",
+          "fragility": 1,
+          "last_maintenance": {
+            "day": 23,
+            "month": 11,
+            "year": 2022
+          },
+          "created_at": "1996-07-11T20:51:00.220Z",
+          "updated_at": "1996-07-11T20:51:00.220Z",
+          "deleted_at": null
+        }
+      ],
+      "sector": "B",
+      "created_at": "1995-02-11T20:51:00.220Z",
+      "updated_at": "1995-02-11T20:51:00.220Z",
+      "deleted_at": null
+    },
+    {
+      "id": 5432,
+      "sector": "C",
+      "items": [
+        {
+          "id": 19989557,
+          "type": "mixer",
+          "brand": "Behringer",
+          "model": "X18",
+          "fragility": 3,
+          "last_maintenance": {
+            "day": 21,
+            "month": 11,
+            "year": 2022
+          },
+          "created_at": "1996-07-11T20:51:00.220Z",
+          "updated_at": "1996-07-11T20:51:00.220Z",
+          "deleted_at": null
+        },
+        {
+          "id": 54078350,
+          "type": "di",
+          "brand": "Behringer",
+          "model": "UltraDI DI20",
+          "fragility": 1,
+          "last_maintenance": {
+            "day": 13,
+            "month": 1,
+            "year": 2023
+          },
+          "created_at": "1996-07-11T20:51:00.220Z",
+          "updated_at": "1996-07-11T20:51:00.220Z",
+          "deleted_at": null
+        },
+        {
+          "id": 20635591,
+          "type": "di",
+          "brand": "Behringer",
+          "model": "UltraDI DI20",
+          "fragility": 1,
+          "last_maintenance": {
+            "day": 21,
+            "month": 1,
+            "year": 2023
+          },
+          "created_at": "1996-07-11T20:51:00.220Z",
+          "updated_at": "1996-07-11T20:51:00.220Z",
+          "deleted_at": null
+        },
+        {
+          "id": 84898301,
+          "type": "di",
+          "brand": "Behringer",
+          "model": "UltraDI DI20",
+          "fragility": 1,
+          "last_maintenance": {
+            "day": 30,
+            "month": 11,
+            "year": 2022
+          },
+          "created_at": "1996-07-11T20:51:00.220Z",
+          "updated_at": "1996-07-11T20:51:00.220Z",
+          "deleted_at": null
+        },
+        {
+          "id": 29241155,
+          "type": "di",
+          "brand": "Behringer",
+          "model": "UltraDI DI20",
+          "fragility": 1,
+          "last_maintenance": {
+            "day": 26,
+            "month": 1,
+            "year": 2023
+          },
+          "created_at": "1996-07-11T20:51:00.220Z",
+          "updated_at": "1996-07-11T20:51:00.220Z",
+          "deleted_at": null
+        },
+        {
+          "id": 71605613,
+          "type": "mixer",
+          "brand": "Behringer",
+          "model": "X18R",
+          "fragility": 2,
+          "last_maintenance": {
+            "day": 13,
+            "month": 1,
+            "year": 2023
+          },
+          "created_at": "1996-07-11T20:51:00.220Z",
+          "updated_at": "1996-07-11T20:51:00.220Z",
+          "deleted_at": null
+        },
+        {
+          "id": 93213651,
+          "type": "mixer",
+          "brand": "Behringer",
+          "model": "X18",
+          "fragility": 3,
+          "last_maintenance": {
+            "day": 26,
+            "month": 0,
+            "year": 2023
+          },
+          "created_at": "1996-07-11T20:51:00.220Z",
+          "updated_at": "1996-07-11T20:51:00.220Z",
+          "deleted_at": null
+        },
+        {
+          "id": 1290957,
+          "type": "mixer",
+          "brand": "Behringer",
+          "model": "X18",
+          "fragility": 3,
+          "last_maintenance": {
+            "day": 13,
+            "month": 1,
+            "year": 2023
+          },
+          "created_at": "1996-07-11T20:51:00.220Z",
+          "updated_at": "1996-07-11T20:51:00.220Z",
+          "deleted_at": null
+        },
+        {
+          "id": 26455813,
+          "type": "mixer",
+          "brand": "Behringer",
+          "model": "X18",
+          "fragility": 3,
+          "last_maintenance": {
+            "day": 24,
+            "month": 1,
+            "year": 2023
+          },
+          "created_at": "1996-07-11T20:51:00.220Z",
+          "updated_at": "1996-07-11T20:51:00.220Z",
+          "deleted_at": null
+        },
+        {
+          "id": 39440054,
+          "type": "di",
+          "brand": "Behringer",
+          "model": "UltraDI DI20",
+          "fragility": 1,
+          "last_maintenance": {
+            "day": 21,
+            "month": 11,
+            "year": 2022
+          },
+          "created_at": "1996-07-11T20:51:00.220Z",
+          "updated_at": "1996-07-11T20:51:00.220Z",
+          "deleted_at": null
+        },
+        {
+          "id": 26192305,
+          "type": "mixer",
+          "brand": "Behringer",
+          "model": "X18",
+          "fragility": 3,
+          "last_maintenance": {
+            "day": 26,
+            "month": 0,
+            "year": 2023
+          },
+          "created_at": "1996-07-11T20:51:00.220Z",
+          "updated_at": "1996-07-11T20:51:00.220Z",
+          "deleted_at": null
+        },
+        {
+          "id": 51713094,
+          "type": "mixer",
+          "brand": "Behringer",
+          "model": "X18R",
+          "fragility": 2,
+          "last_maintenance": {
+            "day": 17,
+            "month": 0,
+            "year": 2023
+          },
+          "created_at": "1996-07-11T20:51:00.220Z",
+          "updated_at": "1996-07-11T20:51:00.220Z",
+          "deleted_at": null
+        },
+        {
+          "id": 76398200,
+          "type": "mixer",
+          "brand": "Behringer",
+          "model": "X18R",
+          "fragility": 2,
+          "last_maintenance": {
+            "day": 25,
+            "month": 0,
+            "year": 2023
+          },
+          "created_at": "1996-07-11T20:51:00.220Z",
+          "updated_at": "1996-07-11T20:51:00.220Z",
+          "deleted_at": null
+        },
+        {
+          "id": 64539573,
+          "type": "mixer",
+          "brand": "Behringer",
+          "model": "X18R",
+          "fragility": 2,
+          "last_maintenance": {
+            "day": 24,
+            "month": 11,
+            "year": 2022
+          },
+          "created_at": "1996-07-11T20:51:00.220Z",
+          "updated_at": "1996-07-11T20:51:00.220Z",
+          "deleted_at": null
+        },
+        {
+          "id": 91120252,
+          "type": "mixer",
+          "brand": "Behringer",
+          "model": "X18R",
+          "fragility": 2,
+          "last_maintenance": {
+            "day": 14,
+            "month": 11,
+            "year": 2022
+          },
+          "created_at": "1996-07-11T20:51:00.220Z",
+          "updated_at": "1996-07-11T20:51:00.220Z",
+          "deleted_at": null
+        }
+      ],
+      "created_at": "1995-02-11T20:51:00.220Z",
+      "updated_at": "1995-02-11T20:51:00.220Z",
+      "deleted_at": null
+    }
+  ]
+}

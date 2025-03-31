@@ -1,0 +1,24 @@
+.header {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--primaryColor);
+}
+
+.title {
+  margin-left: 40px;
+}
+
+.navbar {
+  margin-right: 20px;
+}
+
+.navbarList {
+  display: flex;
+}
+
+.navbarListItem {
+  margin-left: 20px;
+  cursor: pointer;
+}
