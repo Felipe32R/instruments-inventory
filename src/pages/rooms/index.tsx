@@ -14,8 +14,6 @@ export default function Rooms() {
 
   const hasSelectedRoom = id !== undefined;
 
-  console.log("rooms", rooms);
-
   const initialize = (isLoading: boolean) => {
     if (isLoading || hasSelectedRoom || !rooms) {
       return;

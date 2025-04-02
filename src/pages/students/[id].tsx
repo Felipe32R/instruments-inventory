@@ -17,8 +17,6 @@ export default function Students() {
     return <>Loading...</>;
   }
 
-  console.log("id", id);
-
   const hasSelectedStudent = id !== undefined;
 
   const initialize = (isLoading: boolean) => {
@@ -35,8 +33,6 @@ export default function Students() {
   useEffect(() => {
     initializeRef.current(isLoading);
   }, [isLoading]);
-
-  console.log("students", students);
 
   if (!hasSelectedStudent || !students || !reservations) {
     return <>Loading...</>;
