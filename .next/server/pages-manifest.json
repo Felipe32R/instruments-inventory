@@ -2,9 +2,9 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/inventory": "pages/inventory.js",
-  "/rooms": "pages/rooms.js",
-  "/students": "pages/students.js",
   "/rooms/[id]": "pages/rooms/[id].js",
-  "/students/[id]": "pages/students/[id].js"
+  "/students/[id]": "pages/students/[id].js",
+  "/students": "pages/students.js",
+  "/inventory": "pages/inventory.js",
+  "/rooms": "pages/rooms.js"
 }

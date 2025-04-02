@@ -18,6 +18,7 @@ export default function Students() {
     const [firstStudent] = students;
     handleChangeStudent(firstStudent.id.toString());
   };
+
   const initializeRef = useRef(initialize);
   initializeRef.current = initialize;
 
@@ -39,7 +40,7 @@ export default function Students() {
   )!;
 
   if (!selectedStudent) {
-    return <>Estudante não encontrado...</>;
+    return <>Student not found...</>;
   }
 
   const selectedStudentReservations = filterReservationsByStudent(
