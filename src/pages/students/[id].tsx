@@ -1,57 +1,43 @@
-import { useEffect, useRef } from "react";
-
+import { useRef } from "react";
 import cx from "./Students.module.scss";
-import { useReservations } from "app/hooks/useReservations";
-
 import { filterReservationsByStudent } from "app/domain/services/filterReservationsByStudent";
 import { Calendar } from "app/ui/components/Calendar";
 import { useRouter } from "next/router";
+import { fetchReservations } from "app/infrastructure/inner/services/fetchReservations";
+import { getStudentsFromReservations } from "app/domain/services/getStudentsFromReservations";
 
-export default function Students() {
-  const { reservations, students, isLoading } = useReservations();
-
+export default function Students({ students, reservations }) {
   const router = useRouter();
   const { id } = router.query;
 
-  if (!router.isReady || !students || !reservations || !id) {
-    return <>Loading...</>;
-  }
-
-  console.log("id", id);
-
-  const hasSelectedStudent = id !== undefined;
+  const parsedReservations = reservations.map((reservation) => ({
+    ...reservation,
+    startDate: new Date(reservation.startDate),
+    endDate: new Date(reservation.endDate),
+  }));
 
   const initialize = (isLoading: boolean) => {
-    if (isLoading || hasSelectedStudent || !students) {
+    if (isLoading || id !== undefined || !students) {
       return;
     }
 
     const [firstStudent] = students;
     handleChangeStudent(firstStudent.id.toString());
   };
+
   const initializeRef = useRef(initialize);
   initializeRef.current = initialize;
-
-  useEffect(() => {
-    initializeRef.current(isLoading);
-  }, [isLoading]);
-
-  console.log("students", students);
-
-  if (!hasSelectedStudent || !students || !reservations) {
-    return <>Loading...</>;
-  }
 
   const selectedStudent = students.find(
     (courseTaker) => courseTaker.id.toString() === id,
   )!;
 
   if (!selectedStudent) {
-    return <>Estudante não encontrado...</>;
+    return <>Student not found...</>;
   }
 
   const selectedStudentReservations = filterReservationsByStudent(
-    reservations,
+    parsedReservations,
     selectedStudent,
   );
 
@@ -87,4 +73,16 @@ export default function Students() {
       </div>
     </>
   );
+}
+
+export async function getServerSideProps() {
+  const reservations = await fetchReservations();
+  const students = getStudentsFromReservations(reservations);
+
+  return {
+    props: {
+      students,
+      reservations,
+    },
+  };
 }

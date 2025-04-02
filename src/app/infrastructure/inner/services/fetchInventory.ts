@@ -24,5 +24,5 @@ const mapLastMaintenance = (
 ) => {
   const { day, month, year } = lastMaintenance;
 
-  return new Date(year, month, day);
+  return new Date(year, month, day).toISOString();
 };

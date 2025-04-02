@@ -1,16 +1,22 @@
-import { useEffect, useRef } from "react";
+import { useRef } from "react";
 
 import cx from "./Rooms.module.scss";
-import { useReservations } from "app/hooks/useReservations";
+
 import { filterReservationsByRoom } from "app/domain/services/filterReservationsByRoom";
 import { Calendar } from "app/ui/components/Calendar";
 import { useRouter } from "next/router";
+import { fetchReservations } from "app/infrastructure/inner/services/fetchReservations";
+import { getRoomsFromReservations } from "app/domain/services/getRoomsFromReservations";
 
-export default function Rooms() {
-  const { reservations, rooms, isLoading } = useReservations();
-
+export default function Rooms({ rooms, reservations }) {
   const router = useRouter();
   const { id } = router.query;
+
+  const parsedReservations = reservations.map((reservation) => ({
+    ...reservation,
+    startDate: new Date(reservation.startDate),
+    endDate: new Date(reservation.endDate),
+  }));
 
   const hasSelectedRoom = id !== undefined;
 
@@ -25,11 +31,7 @@ export default function Rooms() {
   const initializeRef = useRef(initialize);
   initializeRef.current = initialize;
 
-  useEffect(() => {
-    initializeRef.current(isLoading);
-  }, [isLoading]);
-
-  if (!hasSelectedRoom || !rooms || !reservations) {
+  if (!hasSelectedRoom || !rooms || !parsedReservations) {
     return <>Loading...</>;
   }
 
@@ -38,7 +40,7 @@ export default function Rooms() {
     (room) => room.id.toString() === selectedRoomId,
   )!;
   const selectedRoomReservations = filterReservationsByRoom(
-    reservations,
+    parsedReservations,
     selectedRoom,
   );
 
@@ -74,4 +76,16 @@ export default function Rooms() {
       </div>
     </>
   );
+}
+
+export async function getServerSideProps() {
+  const reservations = await fetchReservations();
+  const rooms = getRoomsFromReservations(reservations);
+
+  return {
+    props: {
+      rooms,
+      reservations,
+    },
+  };
 }

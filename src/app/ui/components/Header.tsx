@@ -10,10 +10,10 @@ export const Header = () => {
       <nav className={cx.navbar}>
         <ul className={cx.navbarList}>
           <li className={cx.navbarListItem}>
-            <Link href={`/rooms`}>Salas</Link>
+            <Link href={`/rooms/1`}>Salas</Link>
           </li>
           <li className={cx.navbarListItem}>
-            <Link href={`/students`}>Alunos</Link>
+            <Link href={`/students/10810`}>Alunos</Link>
           </li>
           <li className={cx.navbarListItem}>
             <Link href="/inventory">Inventário</Link>

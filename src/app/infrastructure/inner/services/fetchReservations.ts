@@ -20,8 +20,11 @@ const mapAllocationsToReservations = (
 ) =>
   allocations.map((alloc) => ({
     id: alloc.id,
-    startDate: new Date(alloc.date),
-    endDate: addMinutes(new Date(alloc.date), alloc.type === 0 ? 30 : 60),
+    startDate: new Date(alloc.date).toISOString(), //
+    endDate: addMinutes(
+      new Date(alloc.date),
+      alloc.type === 0 ? 30 : 60,
+    ).toISOString(),
     room: mapPlaceToRoom(alloc.place),
     student: mapCourseTakerToStudent(
       courseTakers.find((courseTaker) =>
