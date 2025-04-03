@@ -1,8 +1,13 @@
 import cx from "./Inventory.module.scss";
 import { InventoryItem } from "app/ui/components/InventoryItem";
 import { fetchInventory } from "app/infrastructure/inner/services/fetchInventory";
+import { InventoryItem as InventoryItemType } from "app/domain/models/InventoryItem";
 
-export default function Inventory({ inventory }) {
+type InventoryProps = {
+  inventory: InventoryItemType[];
+};
+
+export default function Inventory({ inventory }: InventoryProps) {
   const parsedInventory = inventory.map((item) => ({
     ...item,
     lastMaintenance: new Date(item.lastMaintenance),

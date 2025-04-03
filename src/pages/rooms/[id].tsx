@@ -7,8 +7,15 @@ import { Calendar } from "app/ui/components/Calendar";
 import { useRouter } from "next/router";
 import { fetchReservations } from "app/infrastructure/inner/services/fetchReservations";
 import { getRoomsFromReservations } from "app/domain/services/getRoomsFromReservations";
+import { Room } from "app/domain/models/Room";
+import { Reservation } from "app/domain/models/Reservation";
 
-export default function Rooms({ rooms, reservations }) {
+type RoomsProps = {
+  rooms: Room[];
+  reservations: Reservation[];
+};
+
+export default function Rooms({ rooms, reservations }: RoomsProps) {
   const router = useRouter();
   const { id } = router.query;
 
@@ -47,8 +54,8 @@ export default function Rooms({ rooms, reservations }) {
   const calendarEntries = selectedRoomReservations.map((reservation) => ({
     id: reservation.id.toString(),
     title: reservation.student.name,
-    dateStart: reservation.startDate,
-    dateEnd: reservation.endDate,
+    dateStart: new Date(reservation.startDate),
+    dateEnd: new Date(reservation.endDate),
     group: reservation.id.toString(),
   }));
 

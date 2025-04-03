@@ -1,8 +1,10 @@
 import { InventoryItem as ApiInventoryItem } from "../../outer/api/models/InventoryItem";
 import { getInventory } from "../../outer/api/services/getInventory";
-import { InventoryItem } from "../../../domain/models/InventoryItem";
+import { InventoryItemDateString } from "../../../domain/models/InventoryItem";
 
-export const fetchInventory = async (): Promise<Array<InventoryItem>> => {
+export const fetchInventory = async (): Promise<
+  Array<InventoryItemDateString>
+> => {
   const response = await getInventory();
   const sectors = response.data;
 

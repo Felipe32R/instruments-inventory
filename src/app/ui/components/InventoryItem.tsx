@@ -41,7 +41,7 @@ export const InventoryItem = ({ item }: InventoryItemProps) => {
           <dt className={cx.fieldTitle}>Last Maintenance</dt>
 
           <dd className={cx.fieldData}>
-            {format(item.lastMaintenance, "dd/MM/yyyy")}
+            {format(new Date(item.lastMaintenance), "dd/MM/yyyy")}
           </dd>
         </div>
 

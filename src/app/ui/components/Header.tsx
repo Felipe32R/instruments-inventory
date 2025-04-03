@@ -12,12 +12,12 @@ export const Header = () => {
       <nav className={cx.navbar} data-testid="main-nav">
         <ul className={cx.navbarList}>
           <li className={cx.navbarListItem}>
-            <Link href={`/rooms/1`} data-testid="nav-rooms">
+            <Link href={`/rooms`} data-testid="nav-rooms">
               Salas
             </Link>
           </li>
           <li className={cx.navbarListItem}>
-            <Link href={`/students/10810`} data-testid="nav-students">
+            <Link href={`/students`} data-testid="nav-students">
               Alunos
             </Link>
           </li>

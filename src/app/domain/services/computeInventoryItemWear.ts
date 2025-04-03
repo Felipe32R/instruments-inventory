@@ -15,7 +15,7 @@ export const computeInventoryItemWear = (item: InventoryItem): number => {
   const fragilityMultiplier = fragilityMultiplierMatrix[fragility];
   const daysSinceLastMaintenance = differenceInDays(
     new Date(),
-    lastMaintenance,
+    new Date(lastMaintenance),
   );
   const maxWear = 1000;
 
