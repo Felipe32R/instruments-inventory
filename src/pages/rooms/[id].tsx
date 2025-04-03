@@ -1,7 +1,5 @@
 import { useRef } from "react";
-
 import cx from "./Rooms.module.scss";
-
 import { filterReservationsByRoom } from "app/domain/services/filterReservationsByRoom";
 import { Calendar } from "app/ui/components/Calendar";
 import { useRouter } from "next/router";
@@ -13,11 +11,15 @@ import { Reservation } from "app/domain/models/Reservation";
 type RoomsProps = {
   rooms: Room[];
   reservations: Reservation[];
+  selectedRoomId: string;
 };
 
-export default function Rooms({ rooms, reservations }: RoomsProps) {
+export default function Rooms({
+  rooms,
+  reservations,
+  selectedRoomId,
+}: RoomsProps) {
   const router = useRouter();
-  const { id } = router.query;
 
   const parsedReservations = reservations.map((reservation) => ({
     ...reservation,
@@ -25,10 +27,8 @@ export default function Rooms({ rooms, reservations }: RoomsProps) {
     endDate: new Date(reservation.endDate),
   }));
 
-  const hasSelectedRoom = id !== undefined;
-
   const initialize = (isLoading: boolean) => {
-    if (isLoading || hasSelectedRoom || !rooms) {
+    if (isLoading || selectedRoomId || !rooms) {
       return;
     }
 
@@ -38,11 +38,10 @@ export default function Rooms({ rooms, reservations }: RoomsProps) {
   const initializeRef = useRef(initialize);
   initializeRef.current = initialize;
 
-  if (!hasSelectedRoom || !rooms || !parsedReservations) {
+  if (!rooms || !parsedReservations) {
     return <>Loading...</>;
   }
 
-  const selectedRoomId = id;
   const selectedRoom = rooms.find(
     (room) => room.id.toString() === selectedRoomId,
   )!;
@@ -71,7 +70,7 @@ export default function Rooms({ rooms, reservations }: RoomsProps) {
       >
         <select
           data-testid="room-select"
-          value={id}
+          value={selectedRoomId}
           onChange={(event) => handleGoToRoom(event.target.value)}
         >
           {rooms.map((room) => (
@@ -93,7 +92,7 @@ export default function Rooms({ rooms, reservations }: RoomsProps) {
   );
 }
 
-export async function getServerSideProps() {
+export async function getStaticProps({ params }: { params: { id: string } }) {
   const reservations = await fetchReservations();
   const rooms = getRoomsFromReservations(reservations);
 
@@ -101,6 +100,24 @@ export async function getServerSideProps() {
     props: {
       rooms,
       reservations,
+      selectedRoomId: params.id,
     },
+
+    revalidate: 3600,
+  };
+}
+
+export async function getStaticPaths() {
+  const reservations = await fetchReservations();
+  const rooms = getRoomsFromReservations(reservations);
+
+  const paths = rooms.map((room) => ({
+    params: { id: room.id.toString() },
+  }));
+
+  return {
+    paths,
+
+    fallback: false,
   };
 }

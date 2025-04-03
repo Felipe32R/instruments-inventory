@@ -11,11 +11,15 @@ import { Student } from "app/domain/models/Student";
 type StudentsProps = {
   students: Student[];
   reservations: Reservation[];
+  selectedStudentId: string;
 };
 
-export default function Students({ students, reservations }: StudentsProps) {
+export default function Students({
+  students,
+  reservations,
+  selectedStudentId,
+}: StudentsProps) {
   const router = useRouter();
-  const { id } = router.query;
 
   const parsedReservations = reservations.map((reservation) => ({
     ...reservation,
@@ -24,7 +28,7 @@ export default function Students({ students, reservations }: StudentsProps) {
   }));
 
   const initialize = (isLoading: boolean) => {
-    if (isLoading || id !== undefined || !students) {
+    if (isLoading || selectedStudentId || !students) {
       return;
     }
 
@@ -36,7 +40,7 @@ export default function Students({ students, reservations }: StudentsProps) {
   initializeRef.current = initialize;
 
   const selectedStudent = students.find(
-    (courseTaker) => courseTaker.id.toString() === id,
+    (courseTaker) => courseTaker.id.toString() === selectedStudentId,
   )!;
 
   if (!selectedStudent) {
@@ -68,7 +72,7 @@ export default function Students({ students, reservations }: StudentsProps) {
       >
         <select
           data-testid="student-select"
-          value={id}
+          value={selectedStudentId}
           onChange={(event) => handleChangeStudent(event.target.value)}
         >
           {students.map((student) => (
@@ -90,7 +94,7 @@ export default function Students({ students, reservations }: StudentsProps) {
   );
 }
 
-export async function getServerSideProps() {
+export async function getStaticProps({ params }: { params: { id: string } }) {
   const reservations = await fetchReservations();
   const students = getStudentsFromReservations(reservations);
 
@@ -98,6 +102,24 @@ export async function getServerSideProps() {
     props: {
       students,
       reservations,
+      selectedStudentId: params.id,
     },
+    // Re-generate the page at most once per hour
+    revalidate: 3600,
+  };
+}
+
+export async function getStaticPaths() {
+  const reservations = await fetchReservations();
+  const students = getStudentsFromReservations(reservations);
+
+  const paths = students.map((student) => ({
+    params: { id: student.id.toString() },
+  }));
+
+  return {
+    paths,
+    // Fallback: false means other routes should 404
+    fallback: false,
   };
 }
