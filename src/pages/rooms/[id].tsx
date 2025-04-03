@@ -1,4 +1,3 @@
-import { useRef } from "react";
 import cx from "./Rooms.module.scss";
 import { filterReservationsByRoom } from "app/domain/services/filterReservationsByRoom";
 import { Calendar } from "app/ui/components/Calendar";
@@ -26,21 +25,6 @@ export default function Rooms({
     startDate: new Date(reservation.startDate),
     endDate: new Date(reservation.endDate),
   }));
-
-  const initialize = (isLoading: boolean) => {
-    if (isLoading || selectedRoomId || !rooms) {
-      return;
-    }
-
-    const [firstRoom] = rooms;
-    handleGoToRoom(firstRoom.id.toString());
-  };
-  const initializeRef = useRef(initialize);
-  initializeRef.current = initialize;
-
-  if (!rooms || !parsedReservations) {
-    return <>Loading...</>;
-  }
 
   const selectedRoom = rooms.find(
     (room) => room.id.toString() === selectedRoomId,
@@ -96,6 +80,8 @@ export async function getStaticProps({ params }: { params: { id: string } }) {
   const reservations = await fetchReservations();
   const rooms = getRoomsFromReservations(reservations);
 
+  const revalidationTimeInMs = 5000;
+
   return {
     props: {
       rooms,
@@ -103,7 +89,7 @@ export async function getStaticProps({ params }: { params: { id: string } }) {
       selectedRoomId: params.id,
     },
 
-    revalidate: 3600,
+    revalidate: revalidationTimeInMs,
   };
 }
 
@@ -117,7 +103,6 @@ export async function getStaticPaths() {
 
   return {
     paths,
-
     fallback: false,
   };
 }

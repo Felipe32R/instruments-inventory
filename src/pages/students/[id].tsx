@@ -1,4 +1,3 @@
-import { useRef } from "react";
 import cx from "./Students.module.scss";
 import { filterReservationsByStudent } from "app/domain/services/filterReservationsByStudent";
 import { Calendar } from "app/ui/components/Calendar";
@@ -26,18 +25,6 @@ export default function Students({
     startDate: new Date(reservation.startDate),
     endDate: new Date(reservation.endDate),
   }));
-
-  const initialize = (isLoading: boolean) => {
-    if (isLoading || selectedStudentId || !students) {
-      return;
-    }
-
-    const [firstStudent] = students;
-    handleChangeStudent(firstStudent.id.toString());
-  };
-
-  const initializeRef = useRef(initialize);
-  initializeRef.current = initialize;
 
   const selectedStudent = students.find(
     (courseTaker) => courseTaker.id.toString() === selectedStudentId,
@@ -104,7 +91,7 @@ export async function getStaticProps({ params }: { params: { id: string } }) {
       reservations,
       selectedStudentId: params.id,
     },
-    // Re-generate the page at most once per hour
+
     revalidate: 3600,
   };
 }
@@ -119,7 +106,7 @@ export async function getStaticPaths() {
 
   return {
     paths,
-    // Fallback: false means other routes should 404
+
     fallback: false,
   };
 }
