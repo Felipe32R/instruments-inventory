@@ -30,7 +30,6 @@ export default function Inventory({ inventory }: InventoryProps) {
 
 export async function getServerSideProps() {
   const inventory = await fetchInventory();
-
   return {
     props: {
       inventory,
