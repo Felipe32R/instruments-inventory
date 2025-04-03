@@ -58,20 +58,28 @@ export default function Rooms({ rooms, reservations }) {
 
   return (
     <>
-      <div className={cx.placeSelectContainer}>
+      <div
+        className={cx.placeSelectContainer}
+        data-testid="room-select-container"
+      >
         <select
+          data-testid="room-select"
           value={id}
           onChange={(event) => handleGoToRoom(event.target.value)}
         >
           {rooms.map((room) => (
-            <option key={room.id} value={room.id}>
+            <option
+              key={room.id}
+              value={room.id}
+              data-testid={`room-option-${room.id}`}
+            >
               {room.number} - {room.name}
             </option>
           ))}
         </select>
       </div>
 
-      <div className={cx.calendarContainer}>
+      <div className={cx.calendarContainer} data-testid="room-calendar">
         <Calendar entries={calendarEntries} />
       </div>
     </>

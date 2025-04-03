@@ -55,20 +55,28 @@ export default function Students({ students, reservations }) {
 
   return (
     <>
-      <div className={cx.placeSelectContainer}>
+      <div
+        className={cx.placeSelectContainer}
+        data-testid="student-select-container"
+      >
         <select
+          data-testid="student-select"
           value={id}
           onChange={(event) => handleChangeStudent(event.target.value)}
         >
           {students.map((student) => (
-            <option key={student.id} value={student.id}>
+            <option
+              key={student.id}
+              value={student.id}
+              data-testid={`student-option-${student.id}`}
+            >
               {student.name}
             </option>
           ))}
         </select>
       </div>
 
-      <div className={cx.calendarContainer}>
+      <div className={cx.calendarContainer} data-testid="student-calendar">
         <Calendar entries={entries} />
       </div>
     </>

@@ -4,19 +4,27 @@ import Link from "next/link";
 
 export const Header = () => {
   return (
-    <header className={cx.header}>
-      <h1 className={cx.title}>Sistema Interno</h1>
+    <header className={cx.header} data-testid="header">
+      <h1 className={cx.title} data-testid="app-title">
+        Sistema Interno
+      </h1>
 
-      <nav className={cx.navbar}>
+      <nav className={cx.navbar} data-testid="main-nav">
         <ul className={cx.navbarList}>
           <li className={cx.navbarListItem}>
-            <Link href={`/rooms/1`}>Salas</Link>
+            <Link href={`/rooms/1`} data-testid="nav-rooms">
+              Salas
+            </Link>
           </li>
           <li className={cx.navbarListItem}>
-            <Link href={`/students/10810`}>Alunos</Link>
+            <Link href={`/students/10810`} data-testid="nav-students">
+              Alunos
+            </Link>
           </li>
           <li className={cx.navbarListItem}>
-            <Link href="/inventory">Inventário</Link>
+            <Link href="/inventory" data-testid="nav-inventory">
+              Inventário
+            </Link>
           </li>
         </ul>
       </nav>

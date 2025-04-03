@@ -9,9 +9,13 @@ export default function Inventory({ inventory }) {
   }));
 
   return (
-    <ul className={cx.list}>
+    <ul className={cx.list} data-testid="inventory-list">
       {parsedInventory.map((item) => (
-        <InventoryItem key={item.id} item={item} />
+        <InventoryItem
+          key={item.id}
+          item={item}
+          data-testid={`inventory-item-${item.id}`}
+        />
       ))}
 
       <div className={cx.spacing} />
@@ -21,6 +25,7 @@ export default function Inventory({ inventory }) {
 
 export async function getServerSideProps() {
   const inventory = await fetchInventory();
+
   return {
     props: {
       inventory,
