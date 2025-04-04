@@ -85,11 +85,13 @@ export async function getStaticProps({ params }: { params: { id: string } }) {
   const reservations = await fetchReservations();
   const students = getStudentsFromReservations(reservations);
 
+  const selectedStudentId = params.id ?? students[0].id.toString();
+
   return {
     props: {
       students,
       reservations,
-      selectedStudentId: params.id,
+      selectedStudentId,
     },
 
     revalidate: 3600,

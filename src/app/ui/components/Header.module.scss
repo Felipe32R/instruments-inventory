@@ -3,7 +3,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: var(--primaryColor);
+  background-color: #96deeb;
 }
 
 .title {
@@ -16,6 +16,7 @@
 
 .navbarList {
   display: flex;
+  list-style: none;
 }
 
 .navbarListItem {

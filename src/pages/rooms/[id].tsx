@@ -82,11 +82,13 @@ export async function getStaticProps({ params }: { params: { id: string } }) {
 
   const revalidationTimeInMs = 5000;
 
+  const selectedRoomId = params.id ?? rooms[0].id.toString();
+
   return {
     props: {
       rooms,
       reservations,
-      selectedRoomId: params.id,
+      selectedRoomId,
     },
 
     revalidate: revalidationTimeInMs,
